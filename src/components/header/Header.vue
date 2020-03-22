@@ -1,0 +1,232 @@
+<template>
+    <div id="header">
+      <div id="sandwich-menu"></div>
+      <div id="logo"></div>
+      <div id="page-links">
+        <a>a1</a>
+        <a>a2</a>
+        <a>a3</a>
+      </div>
+      <div id="social-media-icons">
+        <div id="zap" class="social-media-icon"/>
+        <div id="face" class="social-media-icon"/>
+        <div id="insta" class="social-media-icon"/>
+      </div>
+    </div>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+  components: {}
+}
+</script>
+
+<style>
+
+/* mobile */
+@media (max-width: 375px) {
+  #header {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #sandwich-menu {
+    height: 34px;
+    min-width: 40px;
+    margin: 0 1em;
+    background-image: url("../../assets/header-assets/sandwich-menu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+  }
+
+  #page-links {
+    display: none;
+  }
+
+  #logo {
+    background-image: url("../../assets/header-assets/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    min-width: 80px;
+    height: 40px;
+  }
+
+  #social-media-icons {
+    display: flex;
+    margin: 0 1em;
+  }
+
+  .social-media-icon {
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  #zap {
+    background-image: url("../../assets/header-assets/zap.svg");
+    margin-right: 1em;
+  }
+
+  #face {
+    background-image: url("../../assets/header-assets/face.svg");
+      margin-right: 1em;
+  }
+  
+  #insta {
+    background-image: url("../../assets/header-assets/insta.svg");
+  }
+    
+}
+/* tablet */
+@media (max-width: 768px) {
+  #header {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #sandwich-menu {
+    height: 34px;
+    min-width: 40px;
+    margin: 0 1em;
+    background-image: url("../../assets/header-assets/sandwich-menu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+  }
+
+  #page-links {
+    display: none;
+  }
+
+  #logo {
+    background-image: url("../../assets/header-assets/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    min-width: 80px;
+    height: 40px;
+  }
+
+  #social-media-icons {
+    display: flex;
+    margin: 0 1em;
+  }
+
+  .social-media-icon {
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  #zap {
+    background-image: url("../../assets/header-assets/zap.svg");
+    margin-right: 1em;
+  }
+
+  #face {
+    background-image: url("../../assets/header-assets/face.svg");
+      margin-right: 1em;
+  }
+  
+  #insta {
+    background-image: url("../../assets/header-assets/insta.svg");
+  }
+    
+}
+
+@media (min-width: 769px) {
+  #header {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #sandwich-menu {
+    height: 34px;
+    min-width: 40px;
+    margin: 0 1em;
+    background-image: url("../../assets/header-assets/sandwich-menu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    display: none;
+  }
+
+  #logo {
+    background-image: url("../../assets/header-assets/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    margin-left: 40px;
+    min-width: 5em;
+    height: 5em;
+  }
+
+  #page-links {
+    display: flex;
+    margin-left: 2.5em;
+    width: 100%;
+  }
+
+  #social-media-icons {
+    display: flex;
+    margin: 0 2.5em 0 0;
+  }
+
+  .social-media-icon {
+    height: 2.5em;
+    width: 2.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  #zap {
+    background-image: url("../../assets/header-assets/zap.svg");
+    margin-right: 1.5em;
+  }
+
+  #face {
+    background-image: url("../../assets/header-assets/face.svg");
+    margin-right: 1.5em;
+  }
+  
+  #insta {
+    background-image: url("../../assets/header-assets/insta.svg");
+  }
+    
+}
+
+
+
+</style>
