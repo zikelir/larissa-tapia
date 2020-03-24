@@ -28,6 +28,14 @@ export default {
   height: 100%;
 }
 
+a {
+
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
 /* h1 {
   font-family: "Century Gothic"
 } */

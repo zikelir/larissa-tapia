@@ -3,9 +3,12 @@
       <div id="sandwich-menu"></div>
       <div id="logo"></div>
       <div id="page-links">
-        <a>a1</a>
-        <a>a2</a>
-        <a>a3</a>
+        <a class="header-link" href="">Home</a>
+        <a class="header-link" href="">Equipe</a>
+        <a class="header-link" href="">Consultório</a>
+        <a class="header-link" href="">Tratamentos</a>
+        <a class="header-link" href="">Avaliação</a>
+        <a class="header-link" href="">Contato</a>
       </div>
       <div id="social-media-icons">
         <div id="zap" class="social-media-icon"/>
@@ -197,6 +200,14 @@ export default {
     margin-left: 2.5em;
     width: 100%;
   }
+
+  .header-link {
+    margin-left: 1em;
+    color: #670C1B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
 
   #social-media-icons {
     display: flex;
