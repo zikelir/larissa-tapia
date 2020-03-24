@@ -206,8 +206,12 @@ export default {
     color: #670C1B;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2em;
   }
 
+  .header-link:first-child {
+    margin-left: 0;
+  }
 
   #social-media-icons {
     display: flex;

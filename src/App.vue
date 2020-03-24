@@ -28,10 +28,6 @@ export default {
   height: 100%;
 }
 
-a {
-
-}
-
 a:visited {
   font-weight: bold;
   text-decoration: none;
