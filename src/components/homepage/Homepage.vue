@@ -136,7 +136,52 @@ export default {
 
 /* web */
 @media (min-width: 769px) {
+   #home-welcome {
+        box-sizing: border-box;
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../assets/home-assets/home-intro-image-desktop.png");
+        /* background-image: url("../../assets/home-assets/home-intro-image.png"); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 663x;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;  
+        color: #fff;
+        padding: 2.5em;
+     }
 
+     .welcome-name {
+        margin-top: 2.5em;
+        font-size: 4em;
+     }
+
+     .welcome-spec {
+        margin-top: .5em;
+        font-size: 1.5em;
+        padding: 0 25%;
+     }
+     
+     .welcome-phrase {
+        margin-top: 1em;
+        font-size: 1.5em;
+        padding: 0 10%;
+     }
+
+     .welcome-next-arrow {
+        box-sizing: border-box;
+        background-image: url("../../assets/home-assets/next-arrow.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: '';
+        width: 4em;
+        height: 4em;
+        margin-top: 4em;
+     }
 }
 
 
