@@ -139,7 +139,6 @@ export default {
    #home-welcome {
         box-sizing: border-box;
         background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../assets/home-assets/home-intro-image-desktop.png");
-        /* background-image: url("../../assets/home-assets/home-intro-image.png"); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -161,14 +160,14 @@ export default {
 
      .welcome-spec {
         margin-top: .5em;
-        font-size: 1.5em;
-        padding: 0 25%;
+        font-size: 2.5em;
+        padding: 0 60%;
      }
      
      .welcome-phrase {
         margin-top: 1em;
-        font-size: 1.5em;
-        padding: 0 10%;
+        font-size: 2em;
+        padding: 0 40%;
      }
 
      .welcome-next-arrow {
@@ -178,9 +177,9 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         content: '';
-        width: 4em;
-        height: 4em;
-        margin-top: 4em;
+        width: 6em;
+        height: 6em;
+        margin-top: 3em;
      }
 }
 
