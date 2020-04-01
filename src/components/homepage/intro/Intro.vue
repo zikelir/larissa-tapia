@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="home-welcome">
-            <div class="welcome-name">Larissa tapia</div>
+            <div class="welcome-name">Larissa Tapia</div>
             <div class="welcome-spec">Especialista em Dentística</div>
             <div class="welcome-phrase">Deixe o seu sorriso mudar o mundo, mas não deixe o mundo mudar seu sorriso.</div>
             <div class="welcome-next-arrow" />
@@ -32,7 +32,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
+        max-width: 100%;
         height: 667px;
         display: flex;
         flex-direction: column;
@@ -82,7 +82,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
+        max-width: 100%;
         height: 667px;
         display: flex;
         flex-direction: column;
@@ -131,7 +131,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
+        max-width: 100%;
         height: 663x;
         display: flex;
         flex-direction: column;
