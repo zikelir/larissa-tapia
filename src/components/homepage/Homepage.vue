@@ -3,6 +3,7 @@
         <div class="home-container">
             <Intro/>
             <Treatments/>
+            <Testimonials/>
         </div>
     </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Intro from './intro/Intro.vue'
 import Treatments from './treatments/Treatments.vue'
+import Testimonials from './testimonials/Testimonials.vue'
 
 export default {
   name: 'Homepage',
   components: {
      Intro,
-     Treatments
+     Treatments,
+     Testimonials
   }
 }
 </script>
