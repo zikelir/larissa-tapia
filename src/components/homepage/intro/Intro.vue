@@ -62,7 +62,7 @@ export default {
 
      .welcome-next-arrow {
         box-sizing: border-box;
-        background-image: url("../../../assets/home-assets/next-arrow.svg");
+        background-image: url("../../../assets/home-assets/next-arrow-white.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -112,7 +112,7 @@ export default {
 
      .welcome-next-arrow {
         box-sizing: border-box;
-        background-image: url("../../../assets/home-assets/next-arrow.svg");
+        background-image: url("../../../assets/home-assets/next-arrow-white.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -161,7 +161,7 @@ export default {
 
      .welcome-next-arrow {
         box-sizing: border-box;
-        background-image: url("../../../assets/home-assets/next-arrow.svg");
+        background-image: url("../../../assets/home-assets/next-arrow-white.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

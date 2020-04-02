@@ -130,11 +130,11 @@ export default {
 @media (min-width: 769px) {
    #treatment-title {
          color: #670C1B;
-         font-size: 1.5em;
+         font-size: 2em;
          font-weight: bold;
          display: flex;
          justify-content: center;
-         padding: 1.5em 0 1em 0;
+         padding: 1.5em 0 1.5em 0;
      }
 
      #treatment-list {

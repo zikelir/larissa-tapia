@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <!--<img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Header />
     <Homepage />
   </div>
@@ -43,6 +41,8 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 </style>
