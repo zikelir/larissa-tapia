@@ -3,7 +3,7 @@
         <div id="contacts-welcome">
             <div class="welcome-name">Larissa Tapia</div>
             <div class="welcome-spec">Especialista em Dentística</div>
-            <div class="welcome-phrase">Deixe o seu sorriso mudar o mundo, mas não deixe o mundo mudar seu sorriso.</div>
+            <div class="welcome-phrase">Map</div>
             <div class="welcome-next-arrow" />
         </div>
     </div>
