@@ -132,7 +132,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         max-width: 100%;
-        height: 663x;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;

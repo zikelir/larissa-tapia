@@ -16,7 +16,7 @@
                   frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="home-map">
                   </iframe>
                   </div>
-               <div>Rua Frei Manoel da Ressurreição, 974 - Jardim Guanabara, Campinas - SP, 13073-221</div>
+               <div id="map-address">Rua Frei Manoel da Ressurreição, 974 - Jardim Guanabara, Campinas - SP, 13073-221</div>
             </div>
         </div>
     </div>
@@ -41,14 +41,14 @@ export default {
 @media (max-width: 767px) {
    #contacts-welcome {
       box-sizing: border-box;
-      background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/contact-bg.png");
+      background-image: url("../../../assets/home-assets/contact-bg.svg");
       background-repeat: no-repeat;
       max-width: 100%;
-      height: 667px;
       display: flex;
       flex-direction: column;
       color: #fff;
       padding: 0 !important;
+      margin-top: 1em;
    }
 
    #contacts-call {
@@ -67,7 +67,7 @@ export default {
 
    #home-map {
       width: 100%;
-      height: 400px;
+      height: 240px;
    }
 
    .contact-numbers {
@@ -113,8 +113,17 @@ export default {
       display: flex;
       font-weight: 300;
       justify-content: center;
-      margin: 2em 0 1em 0;
+      margin: 1.5em 0 1em 0;
       font-size: 1.5em;
+   }
+
+   #map-address {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1em 0em 2em 0em;
+      font-size: 1em;
    }
 }
 
@@ -122,7 +131,7 @@ export default {
 @media (min-width: 768px) {
     #contacts-welcome {
         box-sizing: border-box;
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/contact-bg.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/contact-bg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -144,7 +153,7 @@ export default {
 @media (min-width: 769px) {
    #contacts-welcome {
         box-sizing: border-box;
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/contact-bg.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/contact-bg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
