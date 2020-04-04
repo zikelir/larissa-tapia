@@ -1,12 +1,12 @@
 <template>
     <div id="footer">
       <div id="social-media-icons">
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
+        <div>+55 19 97654-6644</div>
+        <div>+55 19 32131936</div>
+        <div>dralarissatapia</div>
+        <div>dralarissatapia</div>
       </div>
-      <div>Made with love by pvselano</div>
+      <div>Made with ❤ by pvselano</div>
     </div>
 </template>
 
