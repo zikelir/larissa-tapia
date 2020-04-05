@@ -28,7 +28,7 @@ export default {
 <style>
 
 /* mobile */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   #header {
     display: flex;
     align-content: center;
@@ -94,7 +94,7 @@ export default {
     
 }
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #header {
     display: flex;
     align-content: center;
@@ -160,12 +160,12 @@ export default {
     
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
   #header {
     display: flex;
     align-content: center;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 80px;
@@ -198,7 +198,7 @@ export default {
   #page-links {
     display: flex;
     margin-left: 2.5em;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .header-link {

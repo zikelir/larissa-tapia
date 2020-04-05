@@ -25,8 +25,10 @@ export default {
 #app {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100%;
+  max-width: 1600px;
   height: 100%;
+  width: 100%;
+  background-color: white;
 }
 
 a:visited {
@@ -44,8 +46,12 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
 }
 
 </style>
