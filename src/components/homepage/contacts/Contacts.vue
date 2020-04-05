@@ -147,6 +147,7 @@ export default {
       flex-direction: column;
       margin: 0 0 0 1.5em;
       width: 50%;
+      font-size: 1.5em;
    }
 
    .schedule-today {
@@ -182,8 +183,8 @@ export default {
    }
 
    #contact-zap {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
       background-repeat: no-repeat;
       background-size: cover;
       content: '';
@@ -192,8 +193,8 @@ export default {
    } 
 
    #contact-phone {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
       background-repeat: no-repeat;
       background-size: cover;
       content: '';
@@ -202,7 +203,7 @@ export default {
    }
 
    #location {
-      margin: 2em 1.5em 2em 1em;
+      margin: 3.5em 6em 2em 1em;
       width: 50%;
    }
 
@@ -211,7 +212,7 @@ export default {
       font-weight: 300;
       justify-content: center;
       margin: 0em 0 1em 0;
-      font-size: 1.5em;
+      font-size: 2em;
    }
 
    #map-address {
@@ -220,7 +221,7 @@ export default {
       align-items: center;
       text-align: center;
       padding: 1em 0em 2em 0em;
-      font-size: 1em;
+      font-size: 1.5em;
    }
 }
 
@@ -249,7 +250,7 @@ export default {
    .schedule-today {
       display: flex;
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: 2.5em;
       padding: 1.5em 0 1em 0;
       justify-content: center;
    }
@@ -272,6 +273,8 @@ export default {
       justify-content: flex-start;
       align-items: center;
       margin-bottom: 1em;
+      font-size: 2em;
+      align-items: center;
    }
 
    .contact-number:nth-child(2) {
@@ -279,8 +282,8 @@ export default {
    }
 
    #contact-zap {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
       background-repeat: no-repeat;
       background-size: cover;
       content: '';
@@ -289,17 +292,17 @@ export default {
    } 
 
    #contact-phone {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
       background-repeat: no-repeat;
       background-size: cover;
       content: '';
       background-image: url('../../../assets/home-assets/phone-white.svg');
-      margin-right: .5em;
+      margin: .5em .5em 0 0;
    }
 
    #location {
-      margin: 2em 1.5em 2em 1em;
+      margin: 4em 8em 2em 1em;
       width: 50%;
    }
 
@@ -308,7 +311,7 @@ export default {
       font-weight: 300;
       justify-content: center;
       margin: 0em 0 1em 0;
-      font-size: 1.5em;
+      font-size: 2em;
    }
 
    #map-address {
@@ -316,8 +319,8 @@ export default {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 1em 0em 2em 0em;
-      font-size: 1em;
+      padding: 1em 1em 2em 0em;
+      font-size: 2em;
    }
      
 }
