@@ -23,7 +23,7 @@ export default {
 
 <style>
 #home-treatments {
-    font-family: "Nunito"
+    font-family: "Roboto"
 }
 
 /* mobile */

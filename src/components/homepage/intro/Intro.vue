@@ -21,7 +21,7 @@ export default {
 
 <style>
 .home-container {
-    font-family: "Nunito"
+    font-family: "Roboto"
 }
 
 /* mobile */
@@ -46,12 +46,14 @@ export default {
      .welcome-name {
         margin-top: 2.5em;
         font-size: 3em;
+        font-family: 'Great Vibes';
      }
 
      .welcome-spec {
         margin-top: .5em;
         font-size: 1.5em;
         padding: 0 25%;
+        font-family: cursive;
      }
      
      .welcome-phrase {
@@ -83,7 +85,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         max-width: 100%;
-        height: 667px;
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -96,12 +98,14 @@ export default {
      .welcome-name {
         margin-top: 4em;
         font-size: 3em;
+        font-family: 'Great Vibes';
      }
 
      .welcome-spec {
         margin-top: .5em;
         font-size: 1.5em;
         padding: 0 25%;
+        font-family: cursive;
      }
      
      .welcome-phrase {
@@ -132,7 +136,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         max-width: 100%;
-        height: 780px;
+        height: 960px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -144,12 +148,14 @@ export default {
 
      .welcome-name {
         margin-top: 4em;
-        font-size: 4em;
+        font-size: 5em;
+        font-family: 'Great Vibes';
      }
 
      .welcome-spec {
         margin-top: .5em;
-        font-size: 2.5em;
+        font-size: 2em;
+        font-family: cursive;
      }
      
      .welcome-phrase {

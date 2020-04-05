@@ -28,7 +28,7 @@ export default {
 
 <style>
 .home-container {
-    font-family: "Nunito";
+    font-family: "Roboto";
 }
 
 /* mobile */

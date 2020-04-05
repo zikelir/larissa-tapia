@@ -10,7 +10,7 @@
           <a class="footer-social-media-row" href="http://facebook.com/dralarissatapia" target="#"><div id="face-footer-icon" />dralarissatapia</a>
         </div>
       </div>
-      <div id="made-with-love">Made with ❤ by pvselano</div>
+      <a id="made-with-love" href="https://www.linkedin.com/in/paulo-victor-campelo-selano-b799a298/" target="#">Made with ❤ by pvselano</a>
     </div>
 </template>
 

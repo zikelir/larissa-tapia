@@ -26,7 +26,7 @@ export default {
 
 <style>
 #home-testimonials {
-    font-family: "Nunito"
+    font-family: "Roboto"
 }
 
 /* mobile */
