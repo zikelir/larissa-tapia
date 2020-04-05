@@ -122,8 +122,10 @@ export default {
   
   #social-media-icons-footer {
     display: flex;
-    flex-direction: column;
-    margin-top: 6em;
+    flex-direction: row;
+    margin: 6em 2em 0em 2em;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .footer-social-media-row {
@@ -131,12 +133,12 @@ export default {
     flex-direction: row;
     align-items: center;
     font-size: 1.5em;
-    margin-top: 1em;
+    margin: 3em 1em 2em 1em;
   }
 
   #footer-phones {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #zap-footer-icon {
@@ -161,7 +163,8 @@ export default {
 
   #footer-medias {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   #insta-footer-icon {
@@ -205,8 +208,10 @@ export default {
   
   #social-media-icons-footer {
     display: flex;
-    flex-direction: column;
-    margin-top: 6em;
+    flex-direction: row;
+    margin: 6em 2em 0em 2em;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .footer-social-media-row {
@@ -214,12 +219,14 @@ export default {
     flex-direction: row;
     align-items: center;
     font-size: 1.5em;
-    margin-top: 1em;
+    margin: 3em 1em 2em 1em;
   }
 
   #footer-phones {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
   }
 
   #zap-footer-icon {
@@ -244,7 +251,9 @@ export default {
 
   #footer-medias {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
   }
 
   #insta-footer-icon {

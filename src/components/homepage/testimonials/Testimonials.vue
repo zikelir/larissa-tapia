@@ -30,7 +30,7 @@ export default {
 }
 
 /* mobile */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
      #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
@@ -88,7 +88,7 @@ export default {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
@@ -110,6 +110,7 @@ export default {
          flex-shrink: initial;
          overflow: auto;
         white-space: nowrap;
+        justify-content: space-between;
      }
 
      .testimonial-element {
@@ -146,7 +147,7 @@ export default {
 }
 
 /* web */
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
    #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
