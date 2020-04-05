@@ -68,6 +68,7 @@ export default {
   #social-media-icons {
     display: flex;
     margin: 0 1em;
+    flex-direction: row;
   }
 
   .social-media-icon {
