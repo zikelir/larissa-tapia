@@ -251,7 +251,7 @@ export default {
       display: flex;
       font-weight: bold;
       font-size: 2.5em;
-      padding: 1.5em 0 1em 0;
+      padding: 1em 0 1em 0;
       justify-content: center;
    }
 
