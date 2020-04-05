@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-      <div id="social-media-icons">
+      <div id="social-media-icons-footer">
         <div>+55 19 97654-6644</div>
         <div>+55 19 32131936</div>
         <div>dralarissatapia</div>
@@ -32,11 +32,6 @@ export default {
     background-size: cover;
     padding: 2.5em 0;
     color: #fff;
-  }
-
-  #social-media-icons {
-    display: flex;
-    flex-direction: column;
   }
     
 }

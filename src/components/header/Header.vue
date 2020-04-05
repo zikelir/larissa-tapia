@@ -10,7 +10,7 @@
         <a class="header-link" href="">Avaliação</a>
         <a class="header-link" href="">Contato</a>
       </div>
-      <div id="social-media-icons">
+      <div id="social-media-icons-header">
         <div id="zap" class="social-media-icon"/>
         <div id="face" class="social-media-icon"/>
         <div id="insta" class="social-media-icon"/>
@@ -65,7 +65,7 @@ export default {
     height: 40px;
   }
 
-  #social-media-icons {
+  #social-media-icons-header {
     display: flex;
     margin: 0 1em;
     flex-direction: row;
@@ -132,9 +132,10 @@ export default {
     height: 40px;
   }
 
-  #social-media-icons {
+  #social-media-icons-header {
     display: flex;
     margin: 0 1em;
+    flex-direction: row;
   }
 
   .social-media-icon {
@@ -199,7 +200,6 @@ export default {
   #page-links {
     display: flex;
     margin-left: 2.5em;
-    /* width: 100%; */
   }
 
   .header-link {
@@ -214,9 +214,10 @@ export default {
     margin-left: 0;
   }
 
-  #social-media-icons {
+  #social-media-icons-header {
     display: flex;
     margin: 0 2.5em 0 0;
+    flex-direction: row;
   }
 
   .social-media-icon {
