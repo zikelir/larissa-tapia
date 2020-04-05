@@ -2,12 +2,12 @@
     <div id="footer">
       <div id="social-media-icons-footer">
         <div id="footer-phones">
-          <div class="footer-social-media-row"><div id="zap-footer-icon" />+55 19 97654-6644</div>
-          <div class="footer-social-media-row"><div id="phone-footer-icon" />+55 19 32131936</div>
+          <a class="footer-social-media-row" href="https://wa.me/5519976546644/?text=hello" target="#"><div id="zap-footer-icon" />+55 (19) 97654-6644</a>
+          <a class="footer-social-media-row" href="tel:5551234567" target="#"><div id="phone-footer-icon" />+55 (19) 3213-1936</a>
         </div>
         <div id="footer-medias">
-          <div class="footer-social-media-row"><div id="insta-footer-icon" />dralarissatapia</div>
-          <div class="footer-social-media-row"><div id="face-footer-icon" />dralarissatapia</div>
+          <a class="footer-social-media-row" href="http://instagram.com/dralarissatapia" target="#"><div id="insta-footer-icon" />dralarissatapia</a>
+          <a class="footer-social-media-row" href="http://facebook.com/dralarissatapia" target="#"><div id="face-footer-icon" />dralarissatapia</a>
         </div>
       </div>
       <div id="made-with-love">Made with ❤ by pvselano</div>
@@ -22,7 +22,14 @@ export default {
 </script>
 
 <style>
+a {
+  color: white;
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
 /* mobile */
 @media (max-width: 767px) {
   #footer {

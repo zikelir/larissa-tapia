@@ -3,7 +3,7 @@
         <div id="home-welcome">
             <div class="welcome-name">Larissa Tapia</div>
             <div class="welcome-spec">Especialista em Dentística</div>
-            <div class="welcome-phrase">Deixe o seu sorriso mudar o mundo, mas não deixe o mundo mudar seu sorriso.</div>
+            <div class="welcome-phrase">Odontologia moderna, com acolhimento, excelência e amor</div>
             <div class="welcome-next-arrow" />
         </div>
     </div>
@@ -25,10 +25,10 @@ export default {
 }
 
 /* mobile */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
      #home-welcome {
         box-sizing: border-box;
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/home-intro-image-mobile.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/dra-larissa-bg.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -75,10 +75,10 @@ export default {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #home-welcome {
         box-sizing: border-box;
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/home-intro-image-tablet.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/dra-larissa-bg.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -94,7 +94,7 @@ export default {
      }
 
      .welcome-name {
-        margin-top: 2.5em;
+        margin-top: 4em;
         font-size: 3em;
      }
 
@@ -107,7 +107,7 @@ export default {
      .welcome-phrase {
         margin-top: 1em;
         font-size: 1.5em;
-        padding: 0 10%;
+        width: 25%;
      }
 
      .welcome-next-arrow {
@@ -124,15 +124,15 @@ export default {
 }
 
 /* web */
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
    #home-welcome {
         box-sizing: border-box;
-        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/home-intro-image-desktop.png");
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../../assets/home-assets/dra-larissa-bg.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         max-width: 100%;
-        height: 100%;
+        height: 780px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -143,20 +143,18 @@ export default {
      }
 
      .welcome-name {
-        margin-top: 2.5em;
+        margin-top: 4em;
         font-size: 4em;
      }
 
      .welcome-spec {
         margin-top: .5em;
         font-size: 2.5em;
-        padding: 0 60%;
      }
      
      .welcome-phrase {
-        margin-top: 1em;
         font-size: 2em;
-        padding: 0 40%;
+        width: 25%;
      }
 
      .welcome-next-arrow {

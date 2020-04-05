@@ -11,9 +11,9 @@
         <a class="header-link" href="">Contato</a>
       </div>
       <div id="social-media-icons-header">
-        <div id="zap" class="social-media-icon"/>
-        <div id="face" class="social-media-icon"/>
-        <div id="insta" class="social-media-icon"/>
+        <a id="zap" class="social-media-icon" href="https://wa.me/5521979347722/?text=hello" target="#"/>
+        <a id="face" class="social-media-icon" href="http://facebook.com/dralarissatapia" target="#"/>
+        <a id="insta" class="social-media-icon" href="http://instagram.com/dralarissatapia" target="#"/>
       </div>
     </div>
 </template>
@@ -79,6 +79,7 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
+    cursor: pointer;
   }
 
   #zap {
@@ -148,6 +149,7 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
+    cursor: pointer;
   }
 
   #zap {
@@ -174,7 +176,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 120px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
     background-color: white;
@@ -200,8 +202,8 @@ export default {
     background-position: center;
     content: '';
     margin-left: 40px;
-    min-width: 5em;
-    height: 5em;
+    min-width: 6.5em;
+    height: 6.5em;
   }
 
   #page-links {
@@ -233,6 +235,7 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
+    cursor: pointer;
   }
 
   #zap {
