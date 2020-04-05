@@ -236,7 +236,7 @@ export default {
       display: flex;
       flex-direction: row;
       color: #fff;
-      padding: 0 !important;
+      padding: 0;
       margin-top: 1em;
       justify-content: space-between;
    }

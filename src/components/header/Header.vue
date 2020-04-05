@@ -38,6 +38,8 @@ export default {
     width: 100%;
     height: 80px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background-color: white;
   }
 
   #sandwich-menu {
@@ -105,6 +107,8 @@ export default {
     width: 100%;
     height: 80px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background-color: white;
   }
 
   #sandwich-menu {
@@ -172,6 +176,9 @@ export default {
     width: 100%;
     height: 80px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background-color: white;
+    max-width: 1600px;
   }
 
   #sandwich-menu {
