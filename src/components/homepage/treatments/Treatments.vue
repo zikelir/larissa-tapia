@@ -6,6 +6,8 @@
                   <div class="treatment-element" id="endodontia"><div class="treatment-title">Estética Dental</div></div>
                   <div class="treatment-element" id="invisalign"><div class="treatment-title">Aparelhos Estéticos</div></div>
                   <div class="treatment-element" id="dor-orofacial"><div class="treatment-title">Dor Orofacial</div></div>
+                  <div class="treatment-element" id="laserterapia"><div class="treatment-title">Laserterapia</div></div>
+                  <div class="treatment-element" id="implantes"><div class="treatment-title">Implantes</div></div>
                </div>
     </div>
 </template>
@@ -23,18 +25,18 @@ export default {
 
 <style>
 #home-treatments {
-    font-family: "Roboto"
+    font-family: "Montserrat"
 }
 
 /* mobile */
 @media (min-width: 0px) {
      #treatment-title {
          color: #670C1B;
-         font-size: 1.5em;
-         font-weight: bold;
+         font-size: 2em;
          display: flex;
          justify-content: center;
          padding: 1.5em 0 1em 0;
+         text-align: center;
      }
 
      #treatment-list {
@@ -60,9 +62,8 @@ export default {
          display: flex;
          align-items: flex-end;
          justify-content: center;
-         font-weight: bold;
          color: white;
-         font-family: "Roboto";
+         font-family: "Montserrat";
          font-size: 1em;
      }
 
@@ -89,17 +90,25 @@ export default {
     #endodontia {
          background-image: url('../../../assets/home-assets/endodontia.png');
     }
+
+    #laserterapia {
+         background-image: url('../../../assets/home-assets/laserterapia.png');
+    }
+
+    #implantes {
+         background-image: url('../../../assets/home-assets/implantes.png');
+    }
 }
 
 /* tablet */
 @media (min-width: 768px) {
     #treatment-title {
          color: #670C1B;
-         font-size: 1.5em;
-         font-weight: bold;
+         font-size: 2.5em;
          display: flex;
          justify-content: center;
-         padding: 1.5em 0 1em 0;
+         padding: 1em 0 1em 0;
+         text-align: center;
      }
 
      #treatment-list {
@@ -126,9 +135,8 @@ export default {
          display: flex;
          align-items: flex-end;
          justify-content: center;
-         font-weight: bold;
          color: white;
-         font-family: "Roboto";
+         font-family: "Montserrat";
          font-size: 1em;
      }
 
@@ -155,17 +163,25 @@ export default {
     #endodontia {
          background-image: url('../../../assets/home-assets/endodontia.png');
     }
+    
+    #laserterapia {
+         background-image: url('../../../assets/home-assets/laserterapia.png');
+    }
+
+    #implantes {
+         background-image: url('../../../assets/home-assets/implantes.png');
+    }
 }
 
 /* web */
 @media (min-width: 1440px) {
    #treatment-title {
          color: #670C1B;
-         font-size: 2em;
-         font-weight: bold;
+         font-size: 3.5em;
          display: flex;
          justify-content: center;
-         padding: 1.5em 0 1.5em 0;
+         padding: 1em 0 1em 0;
+         text-align: center;
      }
 
      #treatment-list {
@@ -173,7 +189,7 @@ export default {
          flex-direction: row;
          min-width: 100%;
          flex-wrap: wrap;
-         justify-content: space-between;
+         justify-content: flex-start;
          flex: 1;
          flex-shrink: initial;
          overflow: auto;
@@ -191,9 +207,8 @@ export default {
          display: flex;
          align-items: flex-end;
          justify-content: center;
-         font-weight: bold;
          color: white;
-         font-family: "Roboto";
+         font-family: "Montserrat";
          font-size: 1.2em;
      }
 
@@ -219,6 +234,14 @@ export default {
 
     #endodontia {
          background-image: url('../../../assets/home-assets/endodontia.png');
+    }
+    
+    #laserterapia {
+         background-image: url('../../../assets/home-assets/laserterapia.png');
+    }
+
+    #implantes {
+         background-image: url('../../../assets/home-assets/implantes.png');
     }
 }
 

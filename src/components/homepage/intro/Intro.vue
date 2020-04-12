@@ -21,7 +21,7 @@ export default {
 
 <style>
 .home-container {
-    font-family: "Roboto";
+    font-family: "Montserrat";
 }
 
 /* mobile */
@@ -53,7 +53,7 @@ export default {
         margin-top: .5em;
         font-size: 1.5em;
         padding: 0 25%;
-        font-family: "EB Garamond";
+        font-family: "Montserrat";
         font-weight: 400;
         letter-spacing: 1.5px;
      }
@@ -62,7 +62,7 @@ export default {
         margin-top: 1em;
         font-size: 1.5em;
         padding: 0 10%;
-        font-family: "Roboto";
+        font-family: "Montserrat";
         font-weight: 300;
         line-height: 1.2;
      }
@@ -108,9 +108,9 @@ export default {
 
      .welcome-spec {
         margin-top: .5em;
-        font-size: 1.5em;
+        font-size: 1em;
         padding: 0 25%;
-        font-family: "EB Garamond";
+        font-family: "Montserrat";
         font-weight: 400;
         letter-spacing: 1.5px;
      }
@@ -119,7 +119,7 @@ export default {
         margin-top: 1em;
         font-size: 1.5em;
         width: 25%;
-        font-family: "Roboto";
+        font-family: "Montserrat";
         font-weight: 300;
         line-height: 1.2;
      }
@@ -164,8 +164,8 @@ export default {
 
      .welcome-spec {
         margin-top: .5em;
-        font-size: 2em;
-        font-family: "EB Garamond";
+        font-size: 1.5em;
+        font-family: "Montserrat";
         font-weight: 400;
         letter-spacing: 1.5px;
      }
@@ -173,7 +173,7 @@ export default {
      .welcome-phrase {
         font-size: 2em;
         width: 25%;
-        font-family: "Roboto";
+        font-family: "Montserrat";
         font-weight: 300;
         line-height: 1.2;
      }

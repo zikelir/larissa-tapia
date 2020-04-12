@@ -36,14 +36,14 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 140px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
     background-color: white;
   }
 
   #sandwich-menu {
-    height: 24px;
+    height: 40px;
     min-width: 40px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
@@ -63,8 +63,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 80px;
-    height: 40px;
+    min-width: 140px;
+    height: 120px;
   }
 
   #social-media-icons-header {
@@ -74,8 +74,8 @@ export default {
   }
 
   .social-media-icon {
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
@@ -106,14 +106,14 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 140px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
     background-color: white;
   }
 
   #sandwich-menu {
-    height: 24px;
+    height: 40px;
     min-width: 40px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
@@ -133,8 +133,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 120px;
-    height: 40px;
+    min-width: 140px;
+    height: 120px;
   }
 
   #social-media-icons-header {
@@ -144,8 +144,8 @@ export default {
   }
 
   .social-media-icon {
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     content: '';

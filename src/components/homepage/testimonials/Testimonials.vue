@@ -26,7 +26,7 @@ export default {
 
 <style>
 #home-testimonials {
-    font-family: "Roboto"
+    font-family: "Montserrat"
 }
 
 /* mobile */
@@ -34,8 +34,7 @@ export default {
      #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
-         font-size: 1.5em;
-         font-weight: bold;
+         font-size: 2em;
          display: flex;
          justify-content: center;
          padding: 1em 2em;
@@ -92,8 +91,7 @@ export default {
     #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
-         font-size: 1.5em;
-         font-weight: bold;
+         font-size: 2.5em;
          display: flex;
          justify-content: center;
          padding: 1em 2em;
@@ -151,8 +149,7 @@ export default {
    #testimonial-title {
          box-sizing: border-box;
          color: #670C1B;
-         font-size: 2em;
-         font-weight: bold;
+         font-size: 3.5em;
          display: flex;
          justify-content: center;
          padding: 1em 2em;

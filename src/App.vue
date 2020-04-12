@@ -35,12 +35,10 @@ a:visited {
   font-weight: bold;
   text-decoration: none;
 }
-/* h1 {
-  font-family: "Century Gothic"
-} */
+
 
 body {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
