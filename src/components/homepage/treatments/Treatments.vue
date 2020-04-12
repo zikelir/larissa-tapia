@@ -189,7 +189,7 @@ export default {
          flex-direction: row;
          min-width: 100%;
          flex-wrap: wrap;
-         justify-content: flex-start;
+         justify-content: space-between;
          flex: 1;
          flex-shrink: initial;
          overflow: auto;
@@ -197,13 +197,12 @@ export default {
      }
 
      .treatment-element {
-         min-width: 15em;
-         height: 20em;
+         min-width: 33%;
          background-position: center;
          background-size: contain;
          background-repeat: no-repeat;
          content: '';
-         margin: 0 2em 0 2em;
+         margin: 0 0em 2em 0em;
          display: flex;
          align-items: flex-end;
          justify-content: center;
@@ -216,7 +215,7 @@ export default {
           background-color: #670C1B;
           padding: .5em 1em;
           text-align: center;
-          width: 100%;
+          width: 60%;
           border-radius: 40px;
      }
     
