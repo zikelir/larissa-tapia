@@ -43,8 +43,8 @@ export default {
   }
 
   #sandwich-menu {
-    height: 40px;
-    min-width: 40px;
+    height: 24px;
+    min-width: 24px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
     background-size: contain;
@@ -63,8 +63,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 140px;
-    height: 120px;
+    min-width: 120px;
+    height: 100px;
   }
 
   #social-media-icons-header {
@@ -74,8 +74,8 @@ export default {
   }
 
   .social-media-icon {
-    height: 40px;
-    width: 40px;
+    height: 24px;
+    width: 24px;
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
@@ -113,8 +113,8 @@ export default {
   }
 
   #sandwich-menu {
-    height: 40px;
-    min-width: 40px;
+    height: 32px;
+    min-width: 32px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
     background-size: contain;
@@ -133,8 +133,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 140px;
-    height: 120px;
+    min-width: 120px;
+    height: 100px;
   }
 
   #social-media-icons-header {
@@ -144,8 +144,8 @@ export default {
   }
 
   .social-media-icon {
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
