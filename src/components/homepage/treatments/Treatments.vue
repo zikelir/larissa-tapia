@@ -27,7 +27,7 @@ export default {
 }
 
 /* mobile */
-@media (min-width: 375px) {
+@media (min-width: 0px) {
      #treatment-title {
          color: #670C1B;
          font-size: 1.5em;
@@ -56,7 +56,8 @@ export default {
          background-size: contain;
          background-repeat: no-repeat;
          content: '';
-         margin: 0 1em 0 1em;display: flex;
+         margin: 0 2em 0 1em;
+         display: flex;
          align-items: flex-end;
          justify-content: center;
          font-weight: bold;
@@ -111,6 +112,7 @@ export default {
          overflow: auto;
         white-space: nowrap;
         padding:  0 0 2em 0; 
+        justify-content: space-between;
      }
 
      .treatment-element {
