@@ -2,10 +2,10 @@
     <div id="home-treatments">
                <div id="treatment-title">Conheça os tratamentos</div>
                <div id="treatment-list">
-                  <div class="treatment-element" id="harmonizacao-facial"/>
-                  <div class="treatment-element" id="invisalign"/>
-                  <div class="treatment-element" id="dor-orofacial"/>
-                  <div class="treatment-element" id="endodontia"/>
+                  <div class="treatment-element" id="harmonizacao-facial"><div class="treatment-title">Harmonização Facial</div></div>
+                  <div class="treatment-element" id="dor-orofacial"><div class="treatment-title">Dor Orofacial</div></div>
+                  <div class="treatment-element" id="invisalign"><div class="treatment-title">Invisalign</div></div>
+                  <div class="treatment-element" id="endodontia"><div class="treatment-title">Endodontia</div></div>
                </div>
     </div>
 </template>
@@ -27,7 +27,7 @@ export default {
 }
 
 /* mobile */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
      #treatment-title {
          color: #670C1B;
          font-size: 1.5em;
@@ -56,7 +56,21 @@ export default {
          background-size: contain;
          background-repeat: no-repeat;
          content: '';
-         margin: 0 1em 0 1em;
+         margin: 0 1em 0 1em;display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         font-weight: bold;
+         color: white;
+         font-family: "Roboto";
+         font-size: 1em;
+     }
+
+     .treatment-title {
+          background-color: #670C1B;
+          padding: .5em 1em;
+          text-align: center;
+          width: 100%;
+          border-radius: 40px;
      }
     
     #harmonizacao-facial {
@@ -77,7 +91,7 @@ export default {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #treatment-title {
          color: #670C1B;
          font-size: 1.5em;
@@ -107,6 +121,21 @@ export default {
          background-repeat: no-repeat;
          content: '';
          margin: 0 1em 0 1em;
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         font-weight: bold;
+         color: white;
+         font-family: "Roboto";
+         font-size: 1em;
+     }
+
+     .treatment-title {
+          background-color: #670C1B;
+          padding: .5em 1em;
+          text-align: center;
+          width: 100%;
+          border-radius: 40px;
      }
     
     #harmonizacao-facial {
@@ -127,7 +156,7 @@ export default {
 }
 
 /* web */
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
    #treatment-title {
          color: #670C1B;
          font-size: 2em;
@@ -150,13 +179,28 @@ export default {
      }
 
      .treatment-element {
-         min-width: 18em;
+         min-width: 15em;
          height: 20em;
          background-position: center;
          background-size: contain;
          background-repeat: no-repeat;
          content: '';
          margin: 0 2em 0 2em;
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         font-weight: bold;
+         color: white;
+         font-family: "Roboto";
+         font-size: 1.2em;
+     }
+
+     .treatment-title {
+          background-color: #670C1B;
+          padding: .5em 1em;
+          text-align: center;
+          width: 100%;
+          border-radius: 40px;
      }
     
     #harmonizacao-facial {
