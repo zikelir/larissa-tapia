@@ -3,7 +3,7 @@
         <div id="home-welcome">
             <div class="welcome-name">Larissa Tapia</div>
             <div class="welcome-spec">Especialista em Dentística</div>
-            <div class="welcome-phrase">Odontologia moderna, com acolhimento, excelência e amor</div>
+            <div class="welcome-phrase">"Odontologia moderna, com acolhimento, excelência e amor"</div>
             <div class="welcome-next-arrow" />
         </div>
     </div>
@@ -53,13 +53,16 @@ export default {
         margin-top: .5em;
         font-size: 1.5em;
         padding: 0 25%;
-        font-family: cursive;
+        font-family: "Raleway";
+        font-weight: 400;
      }
      
      .welcome-phrase {
         margin-top: 1em;
         font-size: 1.5em;
         padding: 0 10%;
+        font-family: "Raleway";
+        font-weight: 300;
      }
 
      .welcome-next-arrow {
@@ -105,13 +108,16 @@ export default {
         margin-top: .5em;
         font-size: 1.5em;
         padding: 0 25%;
-        font-family: cursive;
+        font-family: "Raleway";
+        font-weight: 400;
      }
      
      .welcome-phrase {
         margin-top: 1em;
         font-size: 1.5em;
         width: 25%;
+        font-family: "Raleway";
+        font-weight: 300;
      }
 
      .welcome-next-arrow {
@@ -148,19 +154,22 @@ export default {
 
      .welcome-name {
         margin-top: 4em;
-        font-size: 5em;
+        font-size: 6em;
         font-family: 'Great Vibes';
      }
 
      .welcome-spec {
         margin-top: .5em;
         font-size: 2em;
-        font-family: cursive;
+        font-family: "Raleway";
+        font-weight: 400;
      }
      
      .welcome-phrase {
         font-size: 2em;
         width: 25%;
+        font-family: "Raleway";
+        font-weight: 300;
      }
 
      .welcome-next-arrow {
