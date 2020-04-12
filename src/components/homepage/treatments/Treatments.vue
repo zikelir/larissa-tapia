@@ -3,9 +3,9 @@
                <div id="treatment-title">Conheça os tratamentos</div>
                <div id="treatment-list">
                   <div class="treatment-element" id="harmonizacao-facial"><div class="treatment-title">Harmonização Orofacial</div></div>
-                  <div class="treatment-element" id="dor-orofacial"><div class="treatment-title">Dor Orofacial</div></div>
-                  <div class="treatment-element" id="invisalign"><div class="treatment-title">Aparelhos Estéticos</div></div>
                   <div class="treatment-element" id="endodontia"><div class="treatment-title">Estética Dental</div></div>
+                  <div class="treatment-element" id="invisalign"><div class="treatment-title">Aparelhos Estéticos</div></div>
+                  <div class="treatment-element" id="dor-orofacial"><div class="treatment-title">Dor Orofacial</div></div>
                </div>
     </div>
 </template>
