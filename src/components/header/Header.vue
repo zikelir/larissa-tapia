@@ -63,14 +63,14 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 120px;
-    height: 100px;
+    min-width: 140px;
+    height: 120px;
   }
 
   #social-media-icons-header {
     display: flex;
     margin: 0 1em;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .social-media-icon {
@@ -90,10 +90,12 @@ export default {
   #face {
     background-image: url("../../assets/header-assets/face.svg");
       margin-right: 1em;
+      margin-top: .5em;
   }
   
   #insta {
     background-image: url("../../assets/header-assets/insta.svg");
+    margin-top: .5em;
   }
     
 }
@@ -133,8 +135,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 120px;
-    height: 100px;
+    min-width: 160px;
+    height: 180px;
   }
 
   #social-media-icons-header {
