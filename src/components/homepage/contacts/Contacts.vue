@@ -152,10 +152,10 @@ export default {
 
    .schedule-today {
       display: flex;
-      font-weight: bold;
       font-size: 1.5em;
       padding: 1.5em 0 1em 0;
       justify-content: center;
+      text-align: center;
    }
 
    #home-map {
@@ -249,10 +249,10 @@ export default {
 
    .schedule-today {
       display: flex;
-      font-weight: bold;
       font-size: 2.5em;
       padding: 1em 0 1em 0;
       justify-content: center;
+      text-align: center;
    }
 
    #home-map {

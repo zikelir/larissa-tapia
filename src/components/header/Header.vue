@@ -3,11 +3,11 @@
       <div id="sandwich-menu"></div>
       <div id="logo"></div>
       <div id="page-links">
-        <a class="header-link" href="">Home</a>
+        <a class="header-link" href="" style="border-bottom: 4px solid #670C1B">Home</a>
         <a class="header-link" href="">Equipe</a>
-        <a class="header-link" href="">Consultório</a>
-        <a class="header-link" href="">Tratamentos</a>
-        <a class="header-link" href="">Avaliação</a>
+        <!-- <a class="header-link" href="">Consultório</a> -->
+        <!-- <a class="header-link" href="">Tratamentos</a> -->
+        <!-- <a class="header-link" href="">Avaliação</a> -->
         <a class="header-link" href="">Contato</a>
       </div>
       <div id="social-media-icons-header">
@@ -217,8 +217,8 @@ export default {
     margin-left: 1em;
     color: #670C1B;
     text-decoration: none;
-    font-weight: bold;
     font-size: 1.5em;
+    padding-bottom: 4px;
   }
 
   .header-link:first-child {
