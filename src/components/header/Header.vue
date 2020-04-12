@@ -43,7 +43,7 @@ export default {
   }
 
   #sandwich-menu {
-    height: 34px;
+    height: 24px;
     min-width: 40px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
@@ -113,7 +113,7 @@ export default {
   }
 
   #sandwich-menu {
-    height: 34px;
+    height: 24px;
     min-width: 40px;
     margin: 0 1em;
     background-image: url("../../assets/header-assets/sandwich-menu.svg");
@@ -133,7 +133,7 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    min-width: 80px;
+    min-width: 120px;
     height: 40px;
   }
 
@@ -176,7 +176,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
     background-color: white;
@@ -202,8 +202,8 @@ export default {
     background-position: center;
     content: '';
     margin-left: 40px;
-    min-width: 6.5em;
-    height: 6.5em;
+    min-width: 10em;
+    height: 10em;
   }
 
   #page-links {
