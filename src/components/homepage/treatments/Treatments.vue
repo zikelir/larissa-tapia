@@ -3,11 +3,13 @@
                <div id="treatment-title">Conheça os tratamentos</div>
                <div id="treatment-list">
                   <div class="treatment-element" id="harmonizacao-facial"><div class="treatment-title">Harmonização Orofacial</div></div>
-                  <div class="treatment-element" id="endodontia"><div class="treatment-title">Estética Dental</div></div>
+                  <div class="treatment-element" id="endodontia"><div class="treatment-title">Endodontia</div></div>
+                  <div class="treatment-element" id="estetica-dental"><div class="treatment-title">Estética Dental</div></div>
                   <div class="treatment-element" id="invisalign"><div class="treatment-title">Aparelhos Estéticos</div></div>
                   <div class="treatment-element" id="dor-orofacial"><div class="treatment-title">Dor Orofacial</div></div>
                   <div class="treatment-element" id="laserterapia"><div class="treatment-title">Laserterapia</div></div>
                   <div class="treatment-element" id="implantes"><div class="treatment-title">Implantes</div></div>
+                  <div class="treatment-element" id="clareamento"><div class="treatment-title">Clareamento</div></div>
                </div>
     </div>
 </template>
@@ -98,6 +100,15 @@ export default {
     #implantes {
          background-image: url('../../../assets/home-assets/implantes.png');
     }
+
+    #estetica-dental {
+         background-image: url('../../../assets/home-assets/estetica-dental.png');
+    }
+
+    
+    #clareamento {
+         background-image: url('../../../assets/home-assets/clareamento.png');
+    }
 }
 
 /* tablet */
@@ -171,6 +182,15 @@ export default {
     #implantes {
          background-image: url('../../../assets/home-assets/implantes.png');
     }
+
+    #estetica-dental {
+         background-image: url('../../../assets/home-assets/estetica-dental.png');
+    }
+
+    
+    #clareamento {
+         background-image: url('../../../assets/home-assets/clareamento.png');
+    }
 }
 
 /* web */
@@ -241,6 +261,15 @@ export default {
 
     #implantes {
          background-image: url('../../../assets/home-assets/implantes.png');
+    }
+
+    #estetica-dental {
+         background-image: url('../../../assets/home-assets/estetica-dental.png');
+    }
+
+    
+    #clareamento {
+         background-image: url('../../../assets/home-assets/clareamento.png');
     }
 }
 
