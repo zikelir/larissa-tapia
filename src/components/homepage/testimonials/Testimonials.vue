@@ -2,10 +2,11 @@
     <div id="home-testimonials">
                <div id="testimonial-title">E os depoimentos de nossos pacientes</div>
                <div id="testimonial-list">
+                  <!-- <div class="testimonial-element" />
                   <div class="testimonial-element" />
                   <div class="testimonial-element" />
-                  <div class="testimonial-element" />
-                  <div class="testimonial-element" />
+                  <div class="testimonial-element" /> -->
+                  <TestimonialElement />
                </div>
                <div id="testimonial-divider">
                   <div class="testimonial-next-arrow" />
@@ -14,12 +15,12 @@
 </template>
 
 <script>
-
+import TestimonialElement from './TestimonialElement.vue'
 
 export default {
   name: 'Testimonial',
   components: {
-
+      TestimonialElement
   }
 }
 </script>
@@ -53,7 +54,7 @@ export default {
         white-space: nowrap;
      }
 
-     .testimonial-element {
+     /* .testimonial-element {
          box-sizing: border-box;
          display: flex;
          min-width: 12em;
@@ -64,7 +65,7 @@ export default {
          content: '';
          margin: 0 1em 1em 1em;
          background-image: url('../../../assets/home-assets/testimonial.png');
-     }
+     } */
 
 
      #testimonial-divider {
@@ -111,7 +112,7 @@ export default {
         justify-content: space-between;
      }
 
-     .testimonial-element {
+     /* .testimonial-element {
          box-sizing: border-box;
          display: flex;
          min-width: 12em;
@@ -122,7 +123,7 @@ export default {
          content: '';
          margin: 0 1em 1em 1em;
          background-image: url('../../../assets/home-assets/testimonial.png');
-     }
+     } */
 
 
     #testimonial-divider {
@@ -165,7 +166,7 @@ export default {
          justify-content: space-between;
      }
 
-     .testimonial-element {
+     /* .testimonial-element {
          box-sizing: border-box;
          display: flex;
          min-width: 20em;
@@ -176,8 +177,7 @@ export default {
          content: '';
          margin: 0 1em 1em 1em;
          background-image: url('../../../assets/home-assets/testimonial.png');
-     }
-
+     } */
 
     #testimonial-divider {
          width: 100%;
