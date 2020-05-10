@@ -31,7 +31,7 @@ export default {
 /* mobile */
 @media (max-width: 767px) {
      #testimonial-card {
-       max-width: 320px;
+       width: 320px;
        box-sizing: border-box;
        display: flex;
        flex-direction: column;
@@ -42,10 +42,10 @@ export default {
 
      .testmonial-photo {
        background-repeat: no-repeat;
-       background-size: contain;
+       background-size: cover;
        background-position: center;
        min-width: 100%;
-       height: 200px;
+       height: 240px;
        border-radius: 4px 4px 0 0;
      }
 
@@ -65,7 +65,11 @@ export default {
     }
 
     .testmonial-text {
-      margin-top: 1em;
+      display: flex;
+      padding: 1em;
+      overflow-wrap: break-word;
+      word-break: break-all;
+      white-space: pre-line;
     }
 
     .read-more-testmonial {
