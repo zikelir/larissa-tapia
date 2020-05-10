@@ -8,7 +8,7 @@
         <div>{{testimonial.age}} anos</div>
         <div>{{testimonial.job}}</div>
       </div>
-      <p class="testmonial-text">"{{testimonial.testimonial}}"</p>
+      <p class="testmonial-text" :title="testimonial.testimonial">"{{testimonial.testimonial.slice(0, 180)}}..."</p>
       <!-- <div class="read-more-testmonial">Ler mais +</div> -->
     </div>
 </template>

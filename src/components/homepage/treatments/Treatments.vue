@@ -27,7 +27,8 @@ export default {
 
 <style>
 #home-treatments {
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+     background-color: #FFEDF0;
 }
 
 /* mobile */
