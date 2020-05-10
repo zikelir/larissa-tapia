@@ -2,7 +2,7 @@
     <div>
         <div id="home-welcome">
             <div class="welcome-name">Larissa Tapia</div>
-            <div class="welcome-spec">Especialista em Dentística</div>
+            <!-- <div class="welcome-spec">Especialista em Dentística</div> -->
             <div class="welcome-phrase">"Os dentes mudam o sorriso, o sorriso muda a face. A face muda a expressão, a expressão muda a vida!"</div>
             <div class="welcome-next-arrow" />
         </div>
