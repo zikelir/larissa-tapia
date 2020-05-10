@@ -1,6 +1,6 @@
 <template>
     <div id="testimonial-card">
-      <div class="testmonial-photo" v-bind:style="{ backgroundImage: 'url(' + '../../../assets/home-assets/testimonials-photos/' + testimonial.img + ')' }"/>
+      <img :src="require(`@/assets/home-assets/testimonials-photos/${testimonial.img}`)" alt class="testmonial-photo" />
       <div class="testmonial-personal-info">
         <div class="testmonial-name">{{testimonial.name}}</div>
         <div>{{testimonial.age}}</div>
@@ -41,9 +41,8 @@ export default {
      }
 
      .testmonial-photo {
-       /* background-image: url("../../../assets/home-assets/testimonials-photos/claudio-roberto.png"); */
        background-repeat: no-repeat;
-       background-size: cover;
+       background-size: contain;
        background-position: center;
        min-width: 100%;
        height: 200px;
@@ -66,11 +65,7 @@ export default {
     }
 
     .testmonial-text {
-      display: flex;
-      text-align: center;
       margin-top: 1em;
-      max-width: 320px;
-      word-break: break-all;
     }
 
     .read-more-testmonial {

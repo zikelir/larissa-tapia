@@ -4,7 +4,12 @@ export const testimonialArrays = [
         "age": 60,
         "job": "Empresário",
         "img": "claudio-roberto.png",
-        "testimonial": "Gostaria de deixar aqui meu depoimento sobe a Dra. Larissa, de que é uma profissional muito acima da média, posso dizer com toda a convicção de  uma pessoa que já passou em alguns outros consultórios, que aliás deixam muito a desejar perto do consultório da Dra Larissa que possue os melhores equipamentos da atualidade. Além disso tudo ainda tem parceria com outros profissionais da área que só vem a complementar todo o seu trabalho, fazendo com que não seja necessário sair à procura de outras especialidades, já que ela mesma se encarrega dessa parte. Em resumo, estou mais do que satisfeito de pode contar com uma profissional do gabarito da Dra. Larissa Tapia. É além de uma profissional hiper mega qualificada e de uma simpatia e prestesa sem igual."
+        "testimonial": "Gostaria de deixar aqui meu depoimento sobe a Dra. Larissa,"+
+         " de que é uma profissional muito acima da média, posso dizer com toda a convicção de  uma pessoa que já passou em alguns outros consultórios,"+
+         " que aliás deixam muito a desejar perto do consultório da Dra Larissa que possue os melhores equipamentos da atualidade."+
+         " Além disso tudo ainda tem parceria com outros profissionais da área que só vem a complementar todo o seu trabalho,"+
+         " fazendo com que não seja necessário sair à procura de outras especialidades, já que ela mesma se encarrega dessa parte."+
+         " Em resumo, estou mais do que satisfeito de pode contar com uma profissional do gabarito da Dra. Larissa Tapia. É além de uma profissional hiper mega qualificada e de uma simpatia e prestesa sem igual."
     },
     {
         "name": "Cinthia Dotto Brigatti",
@@ -17,7 +22,7 @@ export const testimonialArrays = [
         "name": "Danielle Elaine de Faria",
         "age": 33,
         "job": "Dentista",
-        "img": "daniela-fatima.png",
+        "img": "danielle-elaine.png",
         "testimonial": "Confiança é palavra de ordem! Quem procura um atendimento diferenciado tem que conhecer o brilhante serviço prestado pela Dra. Larissa Tapia! Ótima profissional, muita dedicada e capacitada, além de ser bastante atenciosa e possuir alta destreza nos tratamentos que realiza, zela pelo bom atendimento, bem como a relação dentista-paciente. Lá encontro aconchego, carinho, amizade, respeito, alto astral. Ambiente muito bonito,  organizado e sanitizado,  infraestrutura  de ponta montada com equipamentos de última geração  dando maior conforto às consultas! Entrego meus dentes com toda a confiança e gratidão. Só tenho a agradecer pelo carinho e o cuidado presente em todas as consultas! Aproveito para dar os parabéns pelo excelente trabalho. Atenção, segurança e profissionalismo fazem toda a diferença!"
     },
     {
