@@ -1,9 +1,11 @@
 <template>
     <div id="testimonial-card">
-      <img :src="require(`@/assets/home-assets/testimonials-photos/${testimonial.img}`)" alt class="testmonial-photo" />
+      <div class="testimonial-img-container">
+        <img :src="require(`@/assets/home-assets/testimonials-photos/${testimonial.img}`)" alt class="testmonial-photo" />
+      </div>
       <div class="testmonial-personal-info">
         <div class="testmonial-name">{{testimonial.name}}</div>
-        <div>{{testimonial.age}}</div>
+        <div>{{testimonial.age}} anos</div>
         <div>{{testimonial.job}}</div>
       </div>
       <p class="testmonial-text">"{{testimonial.testimonial}}"</p>
@@ -41,17 +43,23 @@ export default {
        margin-left: 1em;
      }
 
-     .testmonial-photo {
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
-       min-width: 100%;
-       height: 240px;
+     .testimonial-img-container {
+       display: flex;
+       justify-content: center;
+       border: 8px solid #FFCCD4;
+       background-color: #FFEDF0;
        border-radius: 4px 4px 0 0;
      }
 
+     .testmonial-photo {
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: 240px;
+     }
+
     .testmonial-personal-info {
-      border-top: 8px solid #FFCCD4;
+      border-top: none;
       background-color: #FFEDF0;
       color: #670C1B;
       display: flex;
@@ -59,6 +67,7 @@ export default {
       justify-content: center;
       align-items: center;
       padding: 16px;
+      line-height: 1.6;
     }
 
     .testmonial-name {
@@ -94,17 +103,23 @@ export default {
        margin-left: 1em;
      }
 
-     .testmonial-photo {
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
-       min-width: 100%;
-       height: 240px;
+     .testimonial-img-container {
+       display: flex;
+       justify-content: center;
+       border: 8px solid #FFCCD4;
+       background-color: #FFEDF0;
        border-radius: 4px 4px 0 0;
      }
 
+     .testmonial-photo {
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: 240px;
+     }
+
     .testmonial-personal-info {
-      border-top: 8px solid #FFCCD4;
+      border-top: none;
       background-color: #FFEDF0;
       color: #670C1B;
       display: flex;
@@ -112,6 +127,7 @@ export default {
       justify-content: center;
       align-items: center;
       padding: 16px;
+      line-height: 1.6;
     }
 
     .testmonial-name {
@@ -120,7 +136,7 @@ export default {
 
     .testmonial-text {
       display: flex;
-      padding: 1em;
+      padding: 0em 1em 0 1em;
       white-space: pre-line;
       line-height: 1.4;
     }
@@ -144,20 +160,27 @@ export default {
        margin-right: 1em;
        border-radius: 4px;
        background-color: #FFF5F7;
-       margin: 1em;
+       margin-left: 1em;
+       margin-top: 1em;
+     }
+
+     .testimonial-img-container {
+       display: flex;
+       justify-content: center;
+       border: 8px solid #FFCCD4;
+       background-color: #FFEDF0;
+       border-radius: 4px 4px 0 0;
      }
 
      .testmonial-photo {
        background-repeat: no-repeat;
        background-size: cover;
-       background-position: center;
-       min-width: 100%;
+       width: 100%;
        height: 240px;
-       border-radius: 4px 4px 0 0;
      }
 
     .testmonial-personal-info {
-      border-top: 8px solid #FFCCD4;
+      border-top: none;
       background-color: #FFEDF0;
       color: #670C1B;
       display: flex;
@@ -165,6 +188,7 @@ export default {
       justify-content: center;
       align-items: center;
       padding: 16px;
+      line-height: 1.6;
     }
 
     .testmonial-name {
@@ -173,7 +197,7 @@ export default {
 
     .testmonial-text {
       display: flex;
-      padding: 1em;
+      padding: 0em 1em 0 1em;
       white-space: pre-line;
       line-height: 1.4;
     }
