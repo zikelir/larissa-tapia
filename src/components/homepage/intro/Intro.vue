@@ -4,7 +4,13 @@
             <div class="welcome-name">Larissa Tapia</div>
             <!-- <div class="welcome-spec">Especialista em Dentística</div> -->
             <div class="welcome-phrase">"Os dentes mudam o sorriso, o sorriso muda a face. A face muda a expressão, a expressão muda a vida!"</div>
-            <div class="welcome-next-arrow" href="#home-treatments" v-scroll-to="'#home-treatments'"/>
+            <transition
+               name="bounce"
+               enter-active-class="bounceUp"
+               leave-active-class="bounceDown"
+               >
+               <div class="welcome-next-arrow" href="#home-treatments" v-scroll-to="'.welcome-next-arrow'"  v-anime="{ duration: 2000, loop: true }"/>
+            </transition>
         </div>
     </div>
 </template>
@@ -16,10 +22,21 @@ export default {
   name: 'Intro',
   components: {
   },
-  methods: {
-    goToSection: function (id) {
-     document.getElementById(id).scrollIntoView()
-    }
+  mounted() {
+    const targets = this.$el;
+    this
+      .$anime
+      .timeline()
+      .add({
+        targets,
+      //   translateY: 250,
+        easing: 'easeOutExpo',
+      })
+      .add({
+        targets,
+      //   translateY: 250,
+        easing: 'easeOutExpo',
+      });
   }
 }
 </script>
