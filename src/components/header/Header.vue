@@ -3,10 +3,10 @@
       <div id="sandwich-menu"></div>
       <div id="logo"></div>
       <div id="page-links">
-        <a class="header-link" href="" style="border-bottom: 4px solid #670C1B">Home</a>
-        <a class="header-link" href="">Equipe</a>
+        <a class="header-link" v-scroll-to="'#home-welcome'" style="border-bottom: 4px solid #670C1B">Home</a>
+        <a class="header-link" v-scroll-to="'#home-treatments'">Tratamentos</a>
+        <!-- <a class="header-link" href="">Equipe</a> -->
         <!-- <a class="header-link" href="">Consultório</a> -->
-        <!-- <a class="header-link" href="">Tratamentos</a> -->
         <!-- <a class="header-link" href="">Avaliação</a> -->
         <a class="header-link" href="">Contato</a>
       </div>
@@ -219,6 +219,11 @@ export default {
     text-decoration: none;
     font-size: 1.5em;
     padding-bottom: 4px;
+    cursor: pointer;
+  }
+
+  .header-link:hover {
+    font-weight: bold;
   }
 
   .header-link:first-child {

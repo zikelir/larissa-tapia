@@ -4,7 +4,7 @@
             <div class="welcome-name">Larissa Tapia</div>
             <!-- <div class="welcome-spec">Especialista em Dentística</div> -->
             <div class="welcome-phrase">"Os dentes mudam o sorriso, o sorriso muda a face. A face muda a expressão, a expressão muda a vida!"</div>
-            <div class="welcome-next-arrow" />
+            <div class="welcome-next-arrow" href="#home-treatments" v-scroll-to="'#home-treatments'"/>
         </div>
     </div>
 </template>
@@ -15,6 +15,11 @@
 export default {
   name: 'Intro',
   components: {
+  },
+  methods: {
+    goToSection: function (id) {
+     document.getElementById(id).scrollIntoView()
+    }
   }
 }
 </script>
