@@ -6,7 +6,13 @@
                   <div class="testimonial-element" />
                   <div class="testimonial-element" />
                   <div class="testimonial-element" /> -->
-                  <TestimonialElement />
+                    <div v-for="(item, index) in testmonialsArray"
+                    v-bind:item="item"
+                    v-bind:index="index"
+                    v-bind:key="item.id">
+                        <TestimonialElement v-bind:testimonial="item" />
+                    </div>
+                  <!-- <TestimonialElement /> -->
                </div>
                <div id="testimonial-divider">
                   <div class="testimonial-next-arrow" />
@@ -16,11 +22,17 @@
 
 <script>
 import TestimonialElement from './TestimonialElement.vue'
+import { testimonialArrays } from './allTestimonials.js'
 
 export default {
   name: 'Testimonial',
   components: {
       TestimonialElement
+  },
+  data() {
+      return {
+        testmonialsArray: testimonialArrays
+      }
   }
 }
 </script>
