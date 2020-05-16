@@ -2,14 +2,16 @@
     <div id="header">
       <div id="sandwich-menu"></div>
       <div id="logo"></div>
-      <div id="page-links">
-        <a class="header-link" v-scroll-to="'#home-welcome'" style="border-bottom: 4px solid #670C1B">Home</a>
-        <a class="header-link" v-scroll-to="'.welcome-next-arrow'">Tratamentos</a>
-        <!-- <a class="header-link" href="">Equipe</a> -->
-        <!-- <a class="header-link" href="">Consultório</a> -->
-        <!-- <a class="header-link" href="">Avaliação</a> -->
-        <a class="header-link" v-scroll-to="'#testimonial-divider'">Contato</a>
-      </div>
+        <div id="page-links">
+          <scrollactive class="my-nav">
+            <a class="header-link scrollactive-item" href="#home-welcome" v-scroll-to="'#home-welcome'">Home</a>
+            <a class="header-link scrollactive-item" href="#home-treatments" v-scroll-to="'.welcome-next-arrow'">Tratamentos</a>
+            <!-- <a class="header-link" href="">Equipe</a> -->
+            <!-- <a class="header-link" href="">Consultório</a> -->
+            <!-- <a class="header-link" href="">Avaliação</a> -->
+            <a class="header-link scrollactive-item" href="#contacts-welcome" v-scroll-to="'#testimonial-divider'">Contato</a>
+          </scrollactive>
+        </div>
       <div id="social-media-icons-header">
         <a id="zap" class="social-media-icon" href="https://wa.me/5521979347722/?text=hello" target="#"/>
         <a id="face" class="social-media-icon" href="http://facebook.com/dralarissatapia" target="#"/>
@@ -26,6 +28,10 @@ export default {
 </script>
 
 <style>
+.is-active {
+  border-bottom: 4px solid #670C1B;
+  font-weight: bold;
+}
 
 /* mobile */
 @media (max-width: 767px) {
