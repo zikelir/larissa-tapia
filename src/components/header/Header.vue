@@ -4,11 +4,11 @@
       <div id="logo"></div>
       <div id="page-links">
         <a class="header-link" v-scroll-to="'#home-welcome'" style="border-bottom: 4px solid #670C1B">Home</a>
-        <a class="header-link" v-scroll-to="'#home-treatments'">Tratamentos</a>
+        <a class="header-link" v-scroll-to="'.welcome-next-arrow'">Tratamentos</a>
         <!-- <a class="header-link" href="">Equipe</a> -->
         <!-- <a class="header-link" href="">Consultório</a> -->
         <!-- <a class="header-link" href="">Avaliação</a> -->
-        <a class="header-link" href="">Contato</a>
+        <a class="header-link" v-scroll-to="'#testimonial-divider'">Contato</a>
       </div>
       <div id="social-media-icons-header">
         <a id="zap" class="social-media-icon" href="https://wa.me/5521979347722/?text=hello" target="#"/>
