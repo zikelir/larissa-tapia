@@ -12,35 +12,35 @@
                   <!-- <div class="treatment-element" id="clareamento"><div class="treatment-title">Clareamento</div></div> -->
                </div>
 
-               <modal name="harmonizacao">
+               <modal name="harmonizacao" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.harmonizacao.title}}</h1>
                      <div>{{treatments.harmonizacao.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('harmonizacao')">close</button>
                </modal>
-               <modal name="estetica">
+               <modal name="estetica" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.estetica.title}}</h1>
                      <div>{{treatments.estetica.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('estetica')">close</button>
                </modal>
-               <modal name="dtm">
+               <modal name="dtm" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.dtm.title}}</h1>
                      <div>{{treatments.dtm.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('dtm')">close</button>
                </modal>
-               <modal name="invisalign">
+               <modal name="invisalign" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.invisalign.title}}</h1>
                      <div>{{treatments.invisalign.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('invisalign')">close</button>
                </modal>
-               <modal name="implante">
+               <modal name="implante" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.implante.title}}</h1>
                      <div>{{treatments.implante.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('implante')">close</button>
                </modal>
-               <modal name="laserterapia">
+               <modal name="laserterapia" class="treatment-modal" :adaptive="true" width="100%" height="100%">
                      <h1>{{treatments.laserterapia.title}}</h1>
                      <div>{{treatments.laserterapia.text}}</div>
-                    <button  v-on:click="hide()">close</button>
+                    <button  v-on:click="hide('laserterapia')">close</button>
                </modal>
     </div>
 </template>
