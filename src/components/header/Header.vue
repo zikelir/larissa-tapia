@@ -5,11 +5,11 @@
         <div id="page-links">
           <scrollactive class="my-nav">
             <a class="header-link scrollactive-item" href="#home-welcome" v-scroll-to="'#home-welcome'">Home</a>
-            <a class="header-link scrollactive-item" href="#home-treatments" v-scroll-to="'.welcome-next-arrow'">Tratamentos</a>
+            <a class="header-link scrollactive-item" href="#welcome-next-arrow" v-scroll-to="'#welcome-next-arrow'">Tratamentos</a>
             <!-- <a class="header-link" href="">Equipe</a> -->
             <!-- <a class="header-link" href="">Consultório</a> -->
             <!-- <a class="header-link" href="">Avaliação</a> -->
-            <a class="header-link scrollactive-item" href="#contacts-welcome" v-scroll-to="'#testimonial-divider'">Contato</a>
+            <a class="header-link scrollactive-item" href="#testimonial-divider" v-scroll-to="'#testimonial-divider'">Contato</a>
           </scrollactive>
         </div>
       <div id="social-media-icons-header">

@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import VueAnime from 'vue-animejs';
+import VueAnime from 'vue-animejs'
 import App from './App.vue'
-import VueScrollactive from 'vue-scrollactive';
+import VueScrollactive from 'vue-scrollactive'
+import vmodal from 'vue-js-modal'
+
 require('vue2-animate/dist/vue2-animate.min.css')
 
 
@@ -12,6 +14,7 @@ var VueScrollTo = require('vue-scrollto')
 Vue.use(VueScrollTo)
 Vue.use(VueAnime)
 Vue.use(VueScrollactive)
+Vue.use(vmodal)
 
 
 // You can also pass in the default options

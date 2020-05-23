@@ -9,7 +9,7 @@
                enter-active-class="bounceUp"
                leave-active-class="bounceDown"
                >
-               <div class="welcome-next-arrow" href="#home-treatments" v-scroll-to="'.welcome-next-arrow'"  v-anime="{ duration: 2000, loop: true }"/>
+               <div class="welcome-next-arrow" id="welcome-next-arrow" href="#home-treatments" v-scroll-to="'.welcome-next-arrow'"  v-anime="{ duration: 2000, loop: true }"/>
             </transition>
         </div>
     </div>
