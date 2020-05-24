@@ -127,71 +127,6 @@ export default {
      background-color: #FFEDF0;
 }
 
-.treatment-modal {
-     width: 100%;
-     height: 100%;
-     flex-direction: column;
-     background-color: #FFEDF0;
-     color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
-.inner-modal {
-     width: 100%;
-     height: 100%;
-     color: #670C1B;;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-}
-
-.logo-modal {
-     margin: 0 !important;
-}
-
-.modal-title {
-     font-weight: 400;
-     font-size: 48px;
-     margin-bottom: 32px;
-     text-align: left;
-     padding-bottom: 64px;
-     border-bottom: 8px solid #670C1B;
-     border-radius: 50%;
-}
-
-.modal-text {
-     font-size: 24px;
-     width: 40%;
-     line-height: 1.6;
-     text-align: center;
-     margin-bottom: 40px;
-}
-
-.modal-close {
-     min-width: 120px;
-     padding: 8px;
-     border-radius: 4px;
-     font-size: 24px;
-     border: none;
-     background-color: #670C1B;
-     color: white;
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-     cursor: pointer;
-}
-
-.modal-close:hover {
-     min-width: 120px;
-     padding: 8px;
-     border-radius: 4px;
-     font-size: 24px;
-     border: none;
-     color: white;
-     background: #470812;
-     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
-}
 /* mobile */
 @media (min-width: 0px) {
      #treatment-title {
@@ -271,6 +206,72 @@ export default {
     #clareamento {
          background-image: url('../../../assets/home-assets/clareamento.png');
     }
+
+    .treatment-modal {
+     width: 100%;
+     height: 100%;
+     flex-direction: column;
+     background-color: #FFEDF0;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+
+     .inner-modal {
+          width: 100%;
+          height: 100%;
+          color: #670C1B;;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .logo-modal {
+          margin: 0 !important;
+     }
+
+     .modal-title {
+          font-weight: 400;
+          font-size: 32px;
+          margin-bottom: 32px;
+          text-align: left;
+          padding-bottom: 64px;
+          border-bottom: 8px solid #670C1B;
+          border-radius: 50%;
+     }
+
+     .modal-text {
+          font-size: 20px;
+          width: 80%;
+          line-height: 1.6;
+          text-align: center;
+          margin-bottom: 40px;
+     }
+
+     .modal-close {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          background-color: #670C1B;
+          color: white;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+     }
+
+     .modal-close:hover {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          color: white;
+          background: #470812;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+     }
 }
 
 /* tablet */
@@ -353,6 +354,72 @@ export default {
     #clareamento {
          background-image: url('../../../assets/home-assets/clareamento.png');
     }
+
+    .treatment-modal {
+     width: 100%;
+     height: 100%;
+     flex-direction: column;
+     background-color: #FFEDF0;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+
+     .inner-modal {
+          width: 100%;
+          height: 100%;
+          color: #670C1B;;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .logo-modal {
+          margin: 0 !important;
+     }
+
+     .modal-title {
+          font-weight: 400;
+          font-size: 32px;
+          margin-bottom: 32px;
+          text-align: left;
+          padding-bottom: 64px;
+          border-bottom: 8px solid #670C1B;
+          border-radius: 50%;
+     }
+
+     .modal-text {
+          font-size: 24px;
+          width: 80%;
+          line-height: 1.6;
+          text-align: center;
+          margin-bottom: 40px;
+     }
+
+     .modal-close {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          background-color: #670C1B;
+          color: white;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+     }
+
+     .modal-close:hover {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          color: white;
+          background: #470812;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+     }
 }
 
 /* web */
@@ -433,6 +500,71 @@ export default {
     #clareamento {
          background-image: url('../../../assets/home-assets/clareamento.png');
     }
+    .treatment-modal {
+     width: 100%;
+     height: 100%;
+     flex-direction: column;
+     background-color: #FFEDF0;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+
+     .inner-modal {
+          width: 100%;
+          height: 100%;
+          color: #670C1B;;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .logo-modal {
+          margin: 0 !important;
+     }
+
+     .modal-title {
+          font-weight: 400;
+          font-size: 48px;
+          margin-bottom: 32px;
+          text-align: left;
+          padding-bottom: 64px;
+          border-bottom: 8px solid #670C1B;
+          border-radius: 50%;
+     }
+
+     .modal-text {
+          font-size: 24px;
+          width: 40%;
+          line-height: 1.6;
+          text-align: center;
+          margin-bottom: 40px;
+     }
+
+     .modal-close {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          background-color: #670C1B;
+          color: white;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+     }
+
+     .modal-close:hover {
+          min-width: 120px;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 24px;
+          border: none;
+          color: white;
+          background: #470812;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+     }
 }
 
 
