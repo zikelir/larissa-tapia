@@ -1,24 +1,27 @@
 # larissa-tapia
 
-## Project setup
-```
-npm install
-```
+## Build Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+```bash
+# install dependencies
+$ yarn install
+#or
+$ npm install
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# serve with hot reload at localhost:3000
+$ yarn dev
+#or
+$ npm run dev
 
-### Lints and fixes files
-```
-npm run lint
-```
+# build for production and launch server
+$ yarn build
+$ yarn start
+#or
+$ npm run build
+$ npm start
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# generate static project
+$ yarn generate
+# or
+$ npm run generate
+```
