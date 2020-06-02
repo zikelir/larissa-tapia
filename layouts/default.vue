@@ -18,3 +18,13 @@
 		},
 	};
 </script>
+<style lang="scss">
+	#__nuxt {
+		margin: 0;
+		padding: 0;
+		max-width: 1600px;
+		height: 100%;
+		width: 100%;
+		background-color: $white;
+	}
+</style>
