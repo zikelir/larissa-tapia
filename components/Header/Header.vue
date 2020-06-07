@@ -6,9 +6,9 @@
 			<scrollactive class="my-nav">
 				<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 				<a v-scroll-to="'#welcome-next-arrow'" class="header-link scrollactive-item" href="#welcome-next-arrow">Tratamentos</a>
-				<!-- <a class="header-link" href="">Equipe</a> -->
-				<!-- <a class="header-link" href="">Consultório</a> -->
-				<!-- <a class="header-link" href="">Avaliação</a> -->
+				<!-- <a class="header-link" href="">Depoimentos</a>
+				<a class="header-link" href="">Consultório</a>
+				<a class="header-link" href="">Avaliação</a> -->
 				<a v-scroll-to="'#testimonial-divider'" class="header-link scrollactive-item" href="#testimonial-divider">Contato</a>
 			</scrollactive>
 		</div>

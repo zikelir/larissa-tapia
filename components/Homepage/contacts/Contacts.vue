@@ -7,17 +7,17 @@
 				</div>
 				<div class="contact-numbers">
 					<div class="contact-number">
-						<div id="contact-zap" />+55 19 97654-6644
+						<div id="contact-zap" />+55 (19) 97654-6644
 					</div>
 					<div class="contact-number">
-						<div id="contact-phone" />+55 19 3213-1936
+						<div id="contact-phone" />+55 (19) 3213-1936
 					</div>
 				</div>
 			</div>
 			<div id="location">
 				<div>
 					<div class="located-in-call">
-						Estamos localizados na
+						Nossa localização:
 					</div>
 					<iframe
 						id="home-map"
@@ -99,10 +99,6 @@
 			margin-bottom: 1em;
 		}
 
-		.contact-number:nth-child(2) {
-			margin-right: 9px;
-		}
-
 		#contact-zap {
 			width: 1.5em;
 			height: 1.5em;
@@ -136,7 +132,7 @@
 			justify-content: center;
 			align-items: center;
 			text-align: center;
-			padding: 1em 0em 1.5em 0em;
+			padding: 1em 2em 3em 2em;
 			font-size: 1em;
 		}
 	}
@@ -170,6 +166,7 @@
 			padding: 1.5em 0 1em 0;
 			justify-content: center;
 			text-align: center;
+			line-height: 1.2;
 		}
 
 		#home-map {
@@ -188,12 +185,9 @@
 		.contact-number {
 			display: flex;
 			justify-content: flex-start;
-			align-items: center;
+			align-items: left;
 			margin-bottom: 1em;
-		}
-
-		.contact-number:nth-child(2) {
-			margin-right: 9px;
+			width: 100%;
 		}
 
 		#contact-zap {
@@ -213,7 +207,6 @@
 			background-size: cover;
 			content: '';
 			background-image: url('~assets/images/home-assets/phone-white.svg');
-			margin-right: 0.5em;
 		}
 
 		#location {
@@ -234,8 +227,9 @@
 			justify-content: center;
 			align-items: center;
 			text-align: center;
-			padding: 1em 0em 2em 0em;
+			padding: 1em 1.5em 1.5em 2em;
 			font-size: 1.5em;
+			line-height: 1.2;
 		}
 	}
 
@@ -263,10 +257,11 @@
 
 		.schedule-today {
 			display: flex;
-			font-size: 2.5em;
-			padding: 1em 0 1em 0;
+			font-size: 2em;
+			padding: 1em 0 0.5em 0;
 			justify-content: center;
-			text-align: center;
+			text-align: left;
+			font-weight: 300;
 		}
 
 		#home-map {
@@ -285,47 +280,41 @@
 		.contact-number {
 			display: flex;
 			justify-content: flex-start;
+			align-items: left;
+			margin-bottom: 0.5em;
+			font-size: 1.5em;
 			align-items: center;
-			margin-bottom: 1em;
-			font-size: 2em;
-			align-items: center;
-		}
-
-		.contact-number:nth-child(2) {
-			margin-right: 9px;
+			width: 100%;
+			padding-left: 2em;
 		}
 
 		#contact-zap {
-			width: 2em;
-			height: 2em;
+			width: 1.5em;
+			height: 1.5em;
 			background-repeat: no-repeat;
 			background-size: cover;
 			content: '';
 			background-image: url('~assets/images/home-assets/zap-white.svg');
-			margin-right: 0.5em;
 		}
 
 		#contact-phone {
-			width: 2em;
-			height: 2em;
+			width: 1.5em;
+			height: 1.5em;
 			background-repeat: no-repeat;
 			background-size: cover;
 			content: '';
 			background-image: url('~assets/images/home-assets/phone-white.svg');
-			margin: 0.5em 0.5em 0 0;
 		}
 
 		#location {
-			margin: 4em 8em 2em 1em;
+			margin: 3em 8em 1.5em 1em;
 			width: 50%;
 		}
 
 		.located-in-call {
 			display: flex;
-			font-weight: 300;
 			justify-content: center;
-			margin: 0em 0 1em 0;
-			font-size: 2em;
+			font-size: 2.5em;
 		}
 
 		#map-address {
@@ -333,7 +322,7 @@
 			justify-content: center;
 			align-items: center;
 			text-align: center;
-			padding: 1em 1em 2em 0em;
+			padding: 0em 1em 2em 0em;
 			font-size: 2em;
 		}
 	}
