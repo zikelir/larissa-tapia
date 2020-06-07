@@ -1,31 +1,90 @@
 <template>
 	<div id="footer">
-		<div id="social-media-icons-footer">
-			<div id="footer-phones">
-				<a class="footer-social-media-row" href="https://wa.me/5519976546644/?text=hello" target="#">
-					<div id="zap-footer-icon" />+55 (19) 97654-6644</a>
-				<a class="footer-social-media-row" href="tel:5551234567" target="#">
-					<div id="phone-footer-icon" />+55 (19) 3213-1936</a>
+		<div class="contacts">
+			<div class="social-contacts">
+				<h3>Nos encontre nas redes sociais</h3>
+				<a
+					v-for="(contact, index) in contacts"
+					:key="index"
+					:href="contact.href"
+					class="contact-info"
+					target="_blank"
+				>
+					<img :src="contact.imgSrc" :alt="contact.text" class="footer-icon">
+					{{ contact.text }}
+				</a>
 			</div>
-			<div id="footer-medias">
-				<a class="footer-social-media-row" href="http://instagram.com/dralarissatapia" target="#">
-					<div id="insta-footer-icon" />dralarissatapia</a>
-				<a class="footer-social-media-row" href="http://facebook.com/dralarissatapia" target="#">
-					<div id="face-footer-icon" />dralarissatapia</a>
+			<div class="form-contact">
+				<h3>Para mais informações</h3>
+				<form class="form">
+					<label for="name" class="form__field">
+						Nome
+						<input id="name" type="text">
+					</label>
+
+					<label for="email" class="form__field">
+						E-mail
+						<input id="email" type="text">
+					</label>
+
+					<label for="tel" class="form__field">
+						Telefone
+						<input id="tel" type="text">
+					</label>
+
+					<label for="message" class="form__field">
+						Mensagem
+						<textarea
+							id="message"
+							name="message"
+							rows="5"
+						/>
+					</label>
+					<button type="submit" class="submit">
+						Enviar
+					</button>
+				</form>
 			</div>
 		</div>
-		<a id="made-with-love" href="https://www.linkedin.com/in/paulo-victor-campelo-selano-b799a298/" target="#">Made with ❤ by pvselano</a>
+		<a id="made-with-love" href="https://www.linkedin.com/in/paulo-victor-campelo-selano-b799a298/" target="_blank">
+			Made with ❤ by pvselano
+		</a>
 	</div>
 </template>
 
 <script>
 	export default {
 		name: 'Footer',
-		components: {},
+		data() {
+			return {
+				contacts: [
+					{
+						href: 'https://wa.me/5519976546644/?text=hello',
+						imgSrc: require('@/assets/images/footer-assets/zap-white.svg'),
+						text: '+55 (19) 97654-6644',
+					},
+					{
+						href: 'tel:5551234567',
+						imgSrc: require('@/assets/images/footer-assets/phone-white.svg'),
+						text: '+55 (19) 3213-1936',
+					},
+					{
+						href: 'http://instagram.com/dralarissatapia',
+						imgSrc: require('@/assets/images/footer-assets/insta-white.svg'),
+						text: 'dralarissatapia',
+					},
+					{
+						href: 'http://facebook.com/dralarissatapia',
+						imgSrc: require('@/assets/images/footer-assets/fb-white.svg'),
+						text: 'dralarissatapia',
+					},
+				],
+			};
+		},
 	};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	a {
 		color: $white;
 		text-decoration: none;
@@ -34,259 +93,138 @@
 	a:visited {
 		text-decoration: none;
 	}
-	/* mobile */
-	@media (max-width: 767px) {
-		#footer {
-			display: flex;
-			align-content: center;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-			background-image: url('~assets/images/footer-assets/footer-bg.svg');
-			background-repeat: no-repeat;
-			background-size: cover;
-			color: $white;
-		}
 
-		#social-media-icons-footer {
-			display: flex;
-			flex-direction: column;
-			margin-top: 6em;
-		}
+	#footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		background-image: url('~assets/images/footer-assets/footer-bg.svg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-color: $red-01;
+		color: $white;
 
-		.footer-social-media-row {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			font-size: 1.5em;
-			margin-top: 1em;
-		}
+		.contacts {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			grid-column-gap: 32px;
+			padding: 15vh 32px 5vh 32px;
+			width: 70%;
 
-		#footer-phones {
-			display: flex;
-			flex-direction: column;
-		}
+			@media screen and (max-width: 480px) {
+				padding-top: 8vh;
+			}
 
-		#zap-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/zap-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+			@media screen and (max-width: 1199px) {
+				grid-template-columns: 1fr;
+				grid-row-gap: 32px;
+				width: 50%;
+			}
 
-		#phone-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/phone-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+			@media screen and (max-width: 767px) {
+				width: 90%;
+			}
 
-		#footer-medias {
-			display: flex;
-			flex-direction: column;
-		}
+			.social-contacts,
+			.form-contact {
+				h3 {
+					font-size: 1.5rem;
 
-		#insta-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/insta-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+					@media screen and (max-width: 480px) {
+						font-size: 1.1rem;
+					}
 
-		#face-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/fb-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+					font-weight: normal;
+					margin-bottom: 16px;
+				}
+			}
 
-		#made-with-love {
-			padding: 2em 0;
-		}
-	}
-	/* tablet */
-	@media (min-width: 768px) {
-		#footer {
-			display: flex;
-			align-content: center;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-			background-image: url('~assets/images/footer-assets/footer-bg.svg');
-			background-repeat: no-repeat;
-			background-size: cover;
-			color: $white;
-		}
+			.social-contacts {
+				h3,
+				.contact-info {
+					margin-bottom: 16px;
+				}
 
-		#social-media-icons-footer {
-			display: flex;
-			flex-direction: row;
-			margin: 6em 2em 0em 2em;
-			width: 100%;
-			justify-content: space-around;
-		}
+				.contact-info {
+					display: flex;
+					font-size: 1.5rem;
 
-		.footer-social-media-row {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			font-size: 1.5em;
-			margin: 3em 1em 2em 1em;
-		}
+					@media screen and (max-width: 480px) {
+						font-size: 1.1rem;
+					}
 
-		#footer-phones {
-			display: flex;
-			flex-direction: row;
-		}
+					.footer-icon {
+						width: 2.5rem;
+						height: 2.5rem;
+						background-repeat: no-repeat;
+						background-size: contain;
+						margin-right: 0.75em;
 
-		#zap-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/zap-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+						@media screen and (max-width: 480px) {
+							width: 1.5rem;
+							height: 1.5rem;
+						}
+					}
+				}
+			}
 
-		#phone-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/phone-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+			.form-contact,
+			.form__field {
+				display: flex;
+				flex-direction: column;
+			}
 
-		#footer-medias {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-		}
+			.form-contact {
+				.form {
+					display: flex;
+					flex-direction: column;
 
-		#insta-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/insta-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
+					.form__field {
+						margin-bottom: 16px;
 
-		#face-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/fb-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
+						input,
+						textarea {
+							border-radius: 3px;
+							border: 2px solid $light-red-03;
+							margin-top: 6px;
+
+							&:focus {
+								outline-color: $red-01;
+							}
+						}
+
+						textarea {
+							resize: none;
+						}
+					}
+				}
+			}
+
+			.submit {
+				font-size: 0.85rem;
+				border-radius: 3px;
+				padding: 4px 8px;
+				width: 120px;
+				border: 2px solid $light-red-03;
+				color: $red-01;
+				align-self: flex-end;
+				transition: background-color 0.3s linear;
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				&:hover,
+				&:focus {
+					background-color: $light-red-03;
+				}
+			}
 		}
 
 		#made-with-love {
-			padding: 2em 0;
-		}
-	}
-
-	@media (min-width: 1440px) {
-		#footer {
-			display: flex;
-			align-content: center;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-			background-image: url('~assets/images/footer-assets/footer-bg.svg');
-			background-repeat: no-repeat;
-			background-size: cover;
-			color: $white;
-		}
-
-		#social-media-icons-footer {
-			display: flex;
-			flex-direction: row;
-			margin: 6em 2em 0em 2em;
-			width: 100%;
-			justify-content: space-around;
-		}
-
-		.footer-social-media-row {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			font-size: 1.5em;
-			margin: 3em 1em 2em 1em;
-		}
-
-		#footer-phones {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-			width: 50%;
-		}
-
-		#zap-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/zap-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
-
-		#phone-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/phone-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
-
-		#footer-medias {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-			width: 50%;
-		}
-
-		#insta-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/insta-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
-
-		#face-footer-icon {
-			width: 1.5em;
-			height: 1.5em;
-			background-image: url('~assets/images/footer-assets/fb-white.svg');
-			content: '';
-			background-repeat: no-repeat;
-			background-size: contain;
-			margin-right: 0.5em;
-		}
-
-		#made-with-love {
-			padding: 2em 0;
+			padding: 2rem 0;
 		}
 	}
 </style>

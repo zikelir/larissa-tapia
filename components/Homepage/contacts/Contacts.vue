@@ -49,6 +49,9 @@
 		font-family: 'Montserrat';
 	}
 
+	#contacts-welcome {
+		background-color: $red-02;
+	}
 	/* mobile */
 	@media (max-width: 767px) {
 		#contacts-welcome {
