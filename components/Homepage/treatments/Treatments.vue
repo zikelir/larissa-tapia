@@ -282,8 +282,8 @@
 		}
 
 		.treatment-element {
-			min-width: 12em;
-			height: 14em;
+			min-width: 16em;
+			height: 16em;
 			background-position: center;
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -429,8 +429,8 @@
 		}
 
 		.treatment-element {
-			min-width: 12em;
-			height: 14em;
+			min-width: 16em;
+			height: 16em;
 			background-position: center;
 			background-size: contain;
 			background-repeat: no-repeat;
