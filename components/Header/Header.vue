@@ -5,11 +5,11 @@
 		<div id="page-links">
 			<scrollactive class="my-nav">
 				<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
-				<a v-scroll-to="'#welcome-next-arrow'" class="header-link scrollactive-item" href="#welcome-next-arrow">Tratamentos</a>
+				<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 				<!-- <a class="header-link" href="">Depoimentos</a>
 				<a class="header-link" href="">Consultório</a>
 				<a class="header-link" href="">Avaliação</a> -->
-				<a v-scroll-to="'#testimonial-divider'" class="header-link scrollactive-item" href="#testimonial-divider">Contato</a>
+				<a v-scroll-to="'#contacts-welcome'" class="header-link scrollactive-item" href="#contacts-welcome">Contato</a>
 			</scrollactive>
 		</div>
 		<div id="social-media-icons-header">
@@ -54,6 +54,10 @@
 		font-weight: bold;
 	}
 
+	#header {
+		z-index: 1;
+	}
+
 	/* mobile */
 	@media (max-width: 767px) {
 		#header {
@@ -63,7 +67,7 @@
 			justify-content: space-between;
 			align-items: center;
 			width: 100%;
-			height: 140px;
+			height: 80px;
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			position: fixed;
 			background-color: $white;
@@ -90,14 +94,14 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			content: '';
-			min-width: 140px;
-			height: 120px;
+			min-width: 80px;
+			height: 80px;
 		}
 
 		#social-media-icons-header {
 			display: flex;
 			margin: 0 1em;
-			flex-direction: column;
+			align-items: center;
 		}
 
 		.social-media-icon {
@@ -117,12 +121,10 @@
 		#face {
 			background-image: url('~assets/images/header-assets/face.svg');
 			margin-right: 1em;
-			margin-top: 0.5em;
 		}
 
 		#insta {
 			background-image: url('~assets/images/header-assets/insta.svg');
-			margin-top: 0.5em;
 		}
 	}
 	/* tablet */
