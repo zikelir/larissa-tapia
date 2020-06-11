@@ -10,8 +10,8 @@
 			</div>
 			<transition name="bounce" enter-active-class="bounceUp" leave-active-class="bounceDown">
 				<div
-					id="welcome-next-arrow"
-					v-scroll-to="'.welcome-next-arrow'"
+					id="tratamentos"
+					v-scroll-to="'#tratamentos'"
 					v-anime="{ duration: 2000, loop: true }"
 					class="welcome-next-arrow"
 					href="#home-treatments"

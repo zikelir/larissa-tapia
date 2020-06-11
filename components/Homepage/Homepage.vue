@@ -62,6 +62,10 @@
 					font-weight: normal;
 					line-height: 1.15;
 					margin-bottom: 2.5rem;
+
+					@media screen and (max-width: 480px) {
+						font-size: 1.5rem;
+					}
 				}
 			}
 		}
