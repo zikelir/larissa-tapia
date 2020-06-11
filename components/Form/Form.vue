@@ -16,7 +16,7 @@
 		</label>
 
 		<label for="message" class="form__field">
-			Mensagem
+			Motivo do Contato
 			<textarea id="message" name="message" rows="5" />
 		</label>
 		<button type="submit" class="submit">
@@ -35,6 +35,7 @@
 	.form {
 		display: flex;
 		flex-direction: column;
+		color: $white;
 
 		.form__field {
 			display: flex;
