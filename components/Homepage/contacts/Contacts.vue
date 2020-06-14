@@ -63,7 +63,6 @@
 			flex-direction: column;
 			color: $white;
 			padding: 0 !important;
-			margin-top: 1em;
 		}
 
 		#contacts-call {
@@ -148,7 +147,6 @@
 			flex-direction: row;
 			color: $white;
 			padding: 0 !important;
-			margin-top: 1em;
 			justify-content: space-between;
 		}
 
@@ -245,7 +243,6 @@
 			flex-direction: row;
 			color: $white;
 			padding: 0;
-			margin-top: 1em;
 			justify-content: space-between;
 		}
 

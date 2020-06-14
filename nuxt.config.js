@@ -94,7 +94,9 @@ export default {
 		optimizeCSS: isDevelopment,
 		postcss: {
 			plugins: {
-				rfs: true,
+				rfs: {},
+			},
+			preset: {
 				autoprefixer: {
 					grid: true,
 				},
