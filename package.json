@@ -57,6 +57,7 @@
 		"sass-loader": "8.0.2",
 		"stylelint": "13.3.3",
 		"stylelint-config-sass-guidelines": "7.0.0",
+		"v-click-outside": "3.0.1",
 		"vue-animejs": "2.1.1",
 		"vue-jest": "4.0.0-beta.2",
 		"vue-js-modal": "2.0.0-rc.3",

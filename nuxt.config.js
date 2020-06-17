@@ -42,6 +42,7 @@ export default {
 		{ src: '~/plugins/scrollactive.js', ssr: false },
 		{ src: '~/plugins/anime.js', ssr: false },
 		{ src: '~/plugins/modal.js', ssr: false },
+		{ src: '~/plugins/clickoutside.js', ssr: false },
 	],
 	buildModules: [
 		'@nuxtjs/eslint-module',

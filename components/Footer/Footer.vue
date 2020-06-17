@@ -16,7 +16,7 @@
 			</div>
 			<div class="form-contact">
 				<h3>Para mais informações</h3>
-				<Form />
+				<Form form-id="footer" />
 			</div>
 		</div>
 		<a id="made-with-love" href="https://www.linkedin.com/in/paulo-victor-campelo-selano-b799a298/" target="_blank">
