@@ -1,23 +1,23 @@
 <template>
 	<form class="form">
-		<label for="name" class="form__field">
+		<label :for="`name-${formId}`" class="form__field">
 			Nome
-			<input id="name" type="text">
+			<input :id="`name-${formId}`" type="text">
 		</label>
 
-		<label for="email" class="form__field">
+		<label :for="`email-${formId}`" class="form__field">
 			E-mail
-			<input id="email" type="text">
+			<input :id="`email-${formId}`" type="text">
 		</label>
 
-		<label for="tel" class="form__field">
+		<label :for="`tel-${formId}`" class="form__field">
 			Telefone
-			<input id="tel" type="text">
+			<input :id="`tel-${formId}`" type="text">
 		</label>
 
-		<label for="message" class="form__field">
+		<label :for="`message-${formId}`" class="form__field">
 			Motivo do Contato
-			<textarea id="message" name="message" rows="5" />
+			<textarea :id="`message-${formId}`" name="message" rows="5" />
 		</label>
 		<button type="submit" class="submit">
 			Enviar
@@ -26,8 +26,13 @@
 </template>
 
 <script>
+	import VueTypes from 'vue-types';
+
 	export default {
 		name: 'Form',
+		props: {
+			formId: VueTypes.string.isRequired,
+		},
 	};
 </script>
 
