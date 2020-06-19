@@ -89,7 +89,7 @@
 	}
 
 	/deep/ .hooper {
-		height: 88%;
+		height: calc(88% - 2rem);
 		background-color: $gray;
 
 		.hooper-list {

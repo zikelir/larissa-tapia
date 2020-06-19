@@ -13,10 +13,11 @@
 					<span />
 					<span />
 					<span />
-					<scrollactive id="menu" class="menu" :offset="80">
+					<scrollactive id="menu" class="menu" :offset="140">
 						<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 						<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 						<a v-scroll-to="'#depoimentos'" class="header-link scrollactive-item" href="#depoimentos">Depoimentos</a>
+						<a v-scroll-to="'#equipe'" class="header-link scrollactive-item" href="#equipe">Equipe</a>
 						<!-- <a class="header-link" href="">Consultório</a> -->
 						<!-- <a class="header-link" href="">Avaliação</a> -->
 						<a v-scroll-to="'#contacts-welcome'" class="header-link scrollactive-item" href="#contacts-welcome">Contato</a>
@@ -58,6 +59,7 @@
 						<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 						<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 						<a v-scroll-to="'#depoimentos'" class="header-link scrollactive-item" href="#depoimentos">Depoimentos</a>
+						<a v-scroll-to="'#equipe'" class="header-link scrollactive-item" href="#equipe">Equipe</a>
 						<!-- <a class="header-link" href="">Consultório</a> -->
 						<!-- <a class="header-link" href="">Avaliação</a> -->
 						<a v-scroll-to="'#contacts-welcome'" class="header-link scrollactive-item" href="#contacts-welcome">Contato</a>
