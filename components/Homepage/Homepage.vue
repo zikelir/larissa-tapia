@@ -10,6 +10,7 @@
 				</div>
 			</div>
 			<Testimonials />
+			<Professionals />
 			<Contacts />
 		</div>
 	</div>
@@ -19,6 +20,7 @@
 	import Intro from './intro/Intro.vue';
 	import Treatments from './treatments/Treatments.vue';
 	import Testimonials from './testimonials/Testimonials.vue';
+	import Professionals from './professionals/Professionals.vue';
 	import Contacts from './contacts/Contacts.vue';
 	import Form from '@/components/Form/Form.vue';
 
@@ -28,6 +30,7 @@
 			Intro,
 			Treatments,
 			Testimonials,
+			Professionals,
 			Contacts,
 			Form,
 		},
