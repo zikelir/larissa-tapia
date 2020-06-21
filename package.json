@@ -59,7 +59,7 @@
 		"stylelint-config-sass-guidelines": "7.0.0",
 		"v-click-outside": "3.0.1",
 		"vue-animejs": "2.1.1",
-		"vue-jest": "4.0.0-beta.2",
+		"vue-jest": "^4.0.0-beta.3",
 		"vue-js-modal": "2.0.0-rc.3",
 		"vue-scrollactive": "0.9.3",
 		"vue-scrollto": "2.18.1",

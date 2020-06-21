@@ -12,7 +12,7 @@
 					@click="selectedTab = 'larissa'"
 					@keyup.enter="selectedTab = 'larissa'"
 				>
-					Dra. Larissa Tapia
+					Dra. Larissa Rodrigues Tapia
 				</li>
 				<li
 					class="tab"
@@ -30,7 +30,7 @@
 					@click="selectedTab = 'christian'"
 					@keyup.enter="selectedTab = 'christian'"
 				>
-					Dr. Christian
+					Dr. Christian José Macedo
 				</li>
 			</ul>
 			<div class="content">
@@ -70,7 +70,7 @@
 		height: auto;
 
 		@media screen and (min-width: 950px) {
-			height: 80vh;
+			// height: 80vh;
 		}
 
 		.title {
@@ -95,15 +95,19 @@
 
 			.tabs {
 				display: flex;
-				background-color: $light-red-02;
+				// background-color: $light-red-02;
 				border-top-left-radius: 8px;
+				// border-top: 4px solid $light-red-03;
 
 				@media screen and (max-width: 680px) {
 					overflow-x: auto;
 				}
 
 				.tab {
-					padding: 10px;
+					display: flex;
+					align-items: center;
+					box-sizing: border-box;
+					padding: 16px;
 					font-size: 16px;
 					display: flex;
 					border: 1px solid $light-red-03;
@@ -111,10 +115,11 @@
 					color: $red-01;
 					cursor: pointer;
 					outline: none;
+					border-top: 4px solid $light-red-03;
 					min-width: fit-content;
+					// max-height: 40px;
 
 					@media screen and (min-width: 481px) {
-						padding: 20px;
 						font-size: rfs(20px);
 					}
 
@@ -122,14 +127,14 @@
 					&:focus {
 						border-top-width: 4px;
 						border-color: $light-red-03;
-						font-weight: bold;
+						// font-weight: bold;
 					}
 
 					&.active {
 						background-color: transparent;
 						border-top-width: 4px;
 						border-color: $light-red-03;
-						font-weight: bold;
+						// font-weight: bold;
 					}
 
 					&:first-of-type {
@@ -146,10 +151,12 @@
 				display: flex;
 				flex-direction: column;
 				flex: 1;
+				box-sizing: border-box;
 
 				@media screen and (min-width: 651px) {
 					img {
-						width: 60%;
+						width: 100%;
+						height: 400px;
 					}
 				}
 
@@ -159,7 +166,14 @@
 
 				@media screen and (min-width: 950px) {
 					img {
-						width: unset;
+						// width: unset;
+						width: 100%;
+						height: 600px;
+						object-fit: cover;
+						@media screen and (min-width: 900px) {
+							width: 40%;
+							height: 680px;
+						}
 					}
 				}
 
@@ -169,13 +183,15 @@
 					padding: rfs(24px);
 					color: $red-01;
 					font-size: 16px;
-
+					width: 100%;
 					@media screen and (min-width: 769px) {
-						font-size: rfs(22px);
+						font-size: rfs(16px);
 					}
 
 					@media screen and (min-width: 900px) {
-						font-size: rfs(24px);
+						font-size: rfs(20px);
+						width: 60%;
+						border-top: 2px solid $light-red-02;
 					}
 				}
 			}
