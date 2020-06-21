@@ -34,10 +34,10 @@
 				</li>
 			</ul>
 			<div class="content">
-				<img :src="require(`~/assets/${content.imgSrc}`)" :alt="content.name">
+				<img :src="require(`~/assets/${content.imgSrc}`)" :alt="content.name" class="professional-photo">
 				<p class="text">
 					<span v-for="(line, index) in content.text" :key="index" class="line">
-						{{ line }}
+						<img :src="require(`~/assets/images/professionals/tooth.svg`)" class="tooth-icon" :alt="'tooth-icon'"> {{ line }}
 					</span>
 				</p>
 			</div>
@@ -117,7 +117,6 @@
 					outline: none;
 					border-top: 4px solid $light-red-03;
 					min-width: fit-content;
-					// max-height: 40px;
 
 					@media screen and (min-width: 481px) {
 						font-size: rfs(20px);
@@ -127,14 +126,13 @@
 					&:focus {
 						border-top-width: 4px;
 						border-color: $light-red-03;
-						// font-weight: bold;
 					}
 
 					&.active {
 						background-color: transparent;
 						border-top-width: 4px;
 						border-color: $light-red-03;
-						// font-weight: bold;
+						background-color: $light-red-02;
 					}
 
 					&:first-of-type {
@@ -171,7 +169,7 @@
 						height: 600px;
 						object-fit: cover;
 						@media screen and (min-width: 900px) {
-							width: 40%;
+							width: 35%;
 							height: 680px;
 						}
 					}
@@ -186,13 +184,37 @@
 					width: 100%;
 					@media screen and (min-width: 769px) {
 						font-size: rfs(16px);
+						width: 100%;
 					}
 
-					@media screen and (min-width: 900px) {
+					@media screen and (min-width: 950px) {
 						font-size: rfs(20px);
-						width: 60%;
-						border-top: 2px solid $light-red-02;
+						width: 65%;
+						border: 4px solid $light-red-03;
 					}
+				}
+
+				.professional-photo {
+					border: 4px solid $light-red-03;
+
+					@media screen and (min-width: 900px) {
+						border: 4px solid $light-red-03;
+						border-right: none;
+					}
+				}
+
+				.line {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					margin-bottom: 8px;
+				}
+
+				.tooth-icon {
+					object-fit: cover;
+					width: 18px;
+					height: 20px;
+					margin-right: 8px;
 				}
 			}
 		}

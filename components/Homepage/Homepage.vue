@@ -3,12 +3,12 @@
 		<div class="home-container">
 			<Intro />
 			<Treatments />
-			<div class="form-wrapper">
+			<!-- <div class="form-wrapper">
 				<div class="form-contact">
 					<h3>Em caso de dúvida entre em contato conosco</h3>
 					<Form form-id="homepage" />
 				</div>
-			</div>
+			</div> -->
 			<Testimonials />
 			<Professionals />
 			<Contacts />
@@ -22,7 +22,7 @@
 	import Testimonials from './testimonials/Testimonials.vue';
 	import Professionals from './professionals/Professionals.vue';
 	import Contacts from './contacts/Contacts.vue';
-	import Form from '@/components/Form/Form.vue';
+	// import Form from '@/components/Form/Form.vue';
 
 	export default {
 		name: 'Homepage',
@@ -32,7 +32,7 @@
 			Testimonials,
 			Professionals,
 			Contacts,
-			Form,
+			// Form,
 		},
 	};
 </script>

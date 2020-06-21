@@ -90,7 +90,7 @@
 
 	/deep/ .hooper {
 		height: calc(88% - 2rem);
-		background-color: $gray;
+		// background-color: $gray;
 
 		.hooper-list {
 			height: 100%;
@@ -183,7 +183,7 @@
 
 				.text {
 					width: 60%;
-					background-color: $gray;
+					// background-color: $gray;
 					padding: 32px 64px;
 					font-size: rfs(1.25rem);
 
