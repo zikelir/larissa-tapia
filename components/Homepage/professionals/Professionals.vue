@@ -190,16 +190,16 @@
 					@media screen and (min-width: 950px) {
 						font-size: rfs(20px);
 						width: 65%;
-						border: 4px solid $light-red-03;
+						border-top: 1px solid $light-red-03;
 					}
 				}
 
 				.professional-photo {
-					border: 4px solid $light-red-03;
+					border-top: 1px solid $light-red-03;
 
 					@media screen and (min-width: 900px) {
-						border: 4px solid $light-red-03;
-						border-right: none;
+						// border: 4px solid $light-red-03;
+						// border-right: none;
 					}
 				}
 
