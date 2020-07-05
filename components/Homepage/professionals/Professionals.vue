@@ -1,7 +1,7 @@
 <template>
 	<section id="equipe" class="professionals">
 		<h3 class="title">
-			Equipe
+			Nossa Equipe está pronta para te ajudar
 		</h3>
 		<div class="professionals-list">
 			<ul class="tabs">
@@ -75,9 +75,10 @@
 
 		.title {
 			color: $red-01;
-			font-size: 1.5rem;
+			font-size: 2rem;
+			font-weight: 400;
 			padding: 1rem;
-			margin-bottom: 2rem;
+			margin: 2.5rem 0 2rem 0;
 			text-align: center;
 			height: 10%;
 			width: 100%;

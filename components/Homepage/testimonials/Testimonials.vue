@@ -77,9 +77,10 @@
 
 	#testimonial-title {
 		color: $red-01;
-		font-size: 1.5rem;
+		font-size: 2rem;
+		font-weight: 400;
 		padding: 1rem;
-		margin-bottom: 2rem;
+		margin: 2rem 0;
 		text-align: center;
 		height: 12%;
 
@@ -163,11 +164,7 @@
 							font-size: 1.5rem;
 						}
 					}
-
-					.name {
-						font-weight: bold;
-					}
-
+					// .name {// }
 					.name,
 					.age,
 					.job {
