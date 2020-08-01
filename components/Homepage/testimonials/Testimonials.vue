@@ -9,7 +9,8 @@
 		>
 			<Slide v-for="(testimonial, index) in testimonialArrays" :key="index" :index="index">
 				<div class="testimonial">
-					<div class="person" :style="{ backgroundImage: `url(${getImage(testimonial.img)})` }">
+					<div class="person">
+						<img :src="getImage(testimonial.img)" :alt="testimonial.name">
 						<h4 class="name">
 							{{ testimonial.name }}
 						</h4>
@@ -80,9 +81,8 @@
 		font-size: 2rem;
 		font-weight: 400;
 		padding: 1rem;
-		margin: 2rem 0;
+		margin-top: 2rem;
 		text-align: center;
-		height: 12%;
 
 		@media (min-width: 768px) {
 			font-size: 2.5em;
@@ -91,7 +91,6 @@
 
 	/deep/ .hooper {
 		height: calc(88% - 2rem);
-		// background-color: $gray;
 
 		.hooper-list {
 			height: 100%;
@@ -124,47 +123,35 @@
 					flex-direction: column;
 					align-items: center;
 					justify-content: flex-start;
-					background-size: 100% 100%;
-					background-repeat: no-repeat;
-					background-size: 100% 100%;
-					background-repeat: no-repeat;
-					background-position: center;
 					width: 40%;
-					color: $white;
-					padding: 2rem 4rem;
+					padding: 2rem 2rem 2rem 4rem;
 
 					@media screen and (max-width: 480px) {
 						width: 100%;
-						height: 30%;
 						padding: 2rem 2rem;
 					}
 
 					@media screen and (min-width: 481px) and (max-width: 950px) {
 						width: 100%;
-						height: 40%;
 						padding: 2rem 2rem;
 					}
 
-					&::before {
-						content: '';
-						position: absolute;
-						top: 0;
-						left: 0;
-						width: 100%;
-						height: 100%;
-						background-color: rgba($black, 0.75);
+					img {
+						width: 130px;
+						height: 120px;
+						border-radius: 50%;
 					}
 
 					h4 {
-						font-size: 1.75rem;
+						font-size: 1.3rem;
 						font-weight: normal;
 						z-index: 1;
 
 						@media screen and (max-width: 480px) {
-							font-size: 1.5rem;
+							font-size: 1rem;
 						}
 					}
-					// .name {// }
+
 					.name,
 					.age,
 					.job {
@@ -180,21 +167,14 @@
 
 				.text {
 					width: 60%;
-					// background-color: $gray;
-					padding: 32px 64px;
-					font-size: rfs(1.25rem);
+					padding: 32px 64px 32px 0;
+					font-size: 1rem;
 
 					@media screen and (max-width: 950px) {
-						font-size: 0.8rem;
-					}
-
-					@media screen and (max-width: 950px) {
-						width: 100%;
+						font-size: 0.75rem;
+						width: 80%;
 						padding: 1rem;
-					}
-
-					@media screen and (min-width: 1101px) and (max-width: 1200px) {
-						font-size: rfs(1.15rem);
+						align-self: center;
 					}
 				}
 			}
