@@ -137,8 +137,8 @@
 					}
 
 					img {
-						width: 130px;
-						height: 120px;
+						width: 15rem;
+						height: 15rem;
 						border-radius: 50%;
 					}
 
@@ -176,6 +176,10 @@
 						padding: 1rem;
 						align-self: center;
 					}
+				}
+
+				.name {
+					margin-top: 1rem;
 				}
 			}
 		}
