@@ -133,7 +133,8 @@
 						background-color: transparent;
 						border-top-width: 4px;
 						border-color: $light-red-03;
-						background-color: $light-red-02;
+						background-color: $red-01;
+						color: $white;
 					}
 
 					&:first-of-type {

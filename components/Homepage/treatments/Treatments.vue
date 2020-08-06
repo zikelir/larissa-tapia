@@ -255,7 +255,6 @@
 <style lang="scss">
 	#home-treatments {
 		font-family: 'Montserrat';
-		background-color: $light-red-02;
 	}
 
 	/* mobile */
