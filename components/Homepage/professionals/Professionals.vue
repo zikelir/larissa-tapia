@@ -37,7 +37,7 @@
 				<img :src="require(`~/assets/${content.imgSrc}`)" :alt="content.name" class="professional-photo">
 				<p class="text">
 					<span v-for="(line, index) in content.text" :key="index" class="line">
-						<img :src="require(`~/assets/images/professionals/tooth.svg`)" class="tooth-icon" :alt="'tooth-icon'"> {{ line }}
+						<img :src="require(`~/assets/images/professionals/diamond.svg`)" class="tooth-icon" :alt="'tooth-icon'"> {{ line }}
 					</span>
 				</p>
 			</div>
