@@ -214,8 +214,8 @@
 
 				.tooth-icon {
 					object-fit: cover;
-					width: 18px;
-					height: 20px;
+					width: 24px;
+					height: 19px;
 					margin-right: 8px;
 				}
 			}
