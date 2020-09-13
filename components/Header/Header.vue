@@ -13,7 +13,7 @@
 					<span />
 					<span />
 					<span />
-					<scrollactive id="menu" class="menu" :offset="80">
+					<scrollactive id="menu" class="menu" :offset="0">
 						<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 						<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 						<a v-scroll-to="'#depoimentos'" class="header-link scrollactive-item" href="#depoimentos">Depoimentos</a>
@@ -55,7 +55,7 @@
 			<div id="menuDesktop">
 				<div id="logo" />
 				<div id="page-links">
-					<scrollactive class="my-nav" :offset="160">
+					<scrollactive class="my-nav" :offset="0">
 						<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 						<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 						<a v-scroll-to="'#depoimentos'" class="header-link scrollactive-item" href="#depoimentos">Depoimentos</a>
