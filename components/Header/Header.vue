@@ -13,7 +13,7 @@
 					<span />
 					<span />
 					<span />
-					<scrollactive id="menu" class="menu" :offset="140">
+					<scrollactive id="menu" class="menu" :offset="80">
 						<a v-scroll-to="'#home-welcome'" class="header-link scrollactive-item" href="#home-welcome">Home</a>
 						<a v-scroll-to="'#tratamentos'" class="header-link scrollactive-item" href="#tratamentos">Tratamentos</a>
 						<a v-scroll-to="'#depoimentos'" class="header-link scrollactive-item" href="#depoimentos">Depoimentos</a>
@@ -127,11 +127,7 @@
 		background-color: $white;
 
 		@media screen and (min-width: 769px) {
-			height: 120px;
-		}
-
-		@media screen and (min-width: 1101px) {
-			height: 140px;
+			height: 80px;
 		}
 
 		.header-nav {
@@ -200,11 +196,6 @@
 		@media screen and (min-width: 769px) {
 			width: 90px;
 			height: 90px;
-		}
-
-		@media screen and (min-width: 1101px) {
-			width: 120px;
-			height: 120px;
 		}
 	}
 

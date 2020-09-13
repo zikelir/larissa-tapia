@@ -1,18 +1,16 @@
 <template>
-	<div>
-		<div class="home-container">
-			<Intro />
-			<Treatments />
-			<!-- <div class="form-wrapper">
-				<div class="form-contact">
-					<h3>Em caso de dúvida entre em contato conosco</h3>
-					<Form form-id="homepage" />
-				</div>
-			</div> -->
-			<Testimonials />
-			<Professionals />
-			<Contacts />
-		</div>
+	<div class="home-container">
+		<Intro />
+		<Treatments />
+		<!-- <div class="form-wrapper">
+			<div class="form-contact">
+				<h3>Em caso de dúvida entre em contato conosco</h3>
+				<Form form-id="homepage" />
+			</div>
+		</div> -->
+		<Testimonials />
+		<Professionals />
+		<Contacts />
 	</div>
 </template>
 
