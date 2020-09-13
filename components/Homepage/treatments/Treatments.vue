@@ -273,14 +273,23 @@
 
 	#treatment-list {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		padding: 0 0 2em 0;
+		min-width: 100%;
+		flex-wrap: nowrap;
+		flex: 1;
+		flex-shrink: 1;
+		overflow: auto;
+		white-space: nowrap;
+		padding: 0 0 2em;
+
+		@media screen and (min-width: 768px) {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
 	}
 
 	.treatment-element {
-		width: 16em;
-		height: 16em;
+		width: 20em;
+		height: 20em;
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -291,6 +300,13 @@
 		color: $white;
 		font-family: 'Montserrat';
 		font-size: 1em;
+
+		@media screen and (min-width: 768px) {
+			.treatment-element {
+				width: 16em;
+				height: 16em;
+			}
+		}
 	}
 
 	.treatment-title {
@@ -401,18 +417,6 @@
 			justify-content: center;
 			padding: 1em 0 1em 0;
 			text-align: center;
-		}
-
-		#treatment-list {
-			display: flex;
-			flex-direction: row;
-			min-width: 100%;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			flex: 1;
-			flex-shrink: initial;
-			overflow: auto;
-			padding: 0 0 2em 0;
 		}
 
 		.treatment-element {
