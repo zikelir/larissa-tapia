@@ -365,7 +365,7 @@
 			font-weight: 400;
 			font-size: 32px;
 			margin-bottom: 32px;
-			text-align: left;
+			text-align: center;
 			padding-bottom: 64px;
 			border-bottom: 8px solid #670c1b;
 			border-radius: 50%;
@@ -373,10 +373,13 @@
 
 		.modal-text {
 			font-size: 20px;
-			width: 80%;
-			line-height: 1.6;
-			text-align: center;
+			width: 90%;
+			height: 480px;
+			line-height: 1.4;
+			overflow-y: scroll;
+			text-align: left;
 			margin-bottom: 40px;
+			font-size: 1.2rem;
 		}
 
 		.modal-close {

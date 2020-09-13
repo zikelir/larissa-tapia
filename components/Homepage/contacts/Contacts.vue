@@ -77,6 +77,7 @@
 			font-size: 1.5em;
 			padding: 2em 0 1em 0;
 			justify-content: center;
+			text-align: center;
 		}
 
 		#home-map {

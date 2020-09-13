@@ -115,6 +115,7 @@
 					flex-direction: column;
 					background-size: cover;
 					background-position: center 40%;
+					overflow-y: scroll;
 				}
 
 				.person {
