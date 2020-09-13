@@ -7,7 +7,7 @@
 				</div>
 				<div class="contact-numbers">
 					<div class="contact-number">
-						<div id="contact-zap" />+55 (19) 97654-6644
+						<div id="contact-zap" />+55 (19) 99679-1213
 					</div>
 					<div class="contact-number">
 						<div id="contact-phone" />+55 (19) 3213-1936

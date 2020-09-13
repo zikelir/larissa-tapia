@@ -22,7 +22,7 @@
 						</h4>
 					</div>
 					<p class="text">
-						{{ testimonial.testimonial }}
+						"{{ testimonial.testimonial }}"
 					</p>
 				</div>
 			</Slide>
