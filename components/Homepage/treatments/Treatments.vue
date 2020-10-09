@@ -244,9 +244,13 @@
 		methods: {
 			show(modalname) {
 				this.$modal.show(modalname);
+				const body = document.querySelector('body');
+				body.style.overflow = 'hidden';
 			},
 			hide(modalname) {
 				this.$modal.hide(modalname);
+				const body = document.querySelector('body');
+				body.style.overflow = 'scroll';
 			},
 		},
 	};
@@ -255,306 +259,157 @@
 <style lang="scss">
 	#home-treatments {
 		font-family: 'Montserrat';
+		min-height: 100vh;
 	}
 
-	/* mobile */
-	@media (min-width: 0px) {
-		#treatment-title {
-			color: $red-01;
-			font-size: 2em;
-			display: flex;
+	#treatment-title {
+		color: $red-01;
+		font-size: 2em;
+		display: flex;
+		justify-content: center;
+		padding: 1.5em 0 1em 0;
+		text-align: center;
+	}
+
+	#treatment-list {
+		display: flex;
+		min-width: 100%;
+		flex-wrap: nowrap;
+		flex: 1;
+		flex-shrink: 1;
+		overflow: auto;
+		white-space: nowrap;
+		padding: 0 0 2em;
+
+		@media screen and (min-width: 768px) {
+			flex-wrap: wrap;
 			justify-content: center;
-			padding: 1.5em 0 1em 0;
-			text-align: center;
-		}
-
-		#treatment-list {
-			display: flex;
-			flex-direction: row;
-			min-width: 100%;
-			flex-wrap: nowrap;
-			flex: 1;
-			flex-shrink: initial;
-			overflow: auto;
-			white-space: nowrap;
-			padding: 0 0 2em 0;
-		}
-
-		.treatment-element {
-			min-width: 16em;
-			height: 16em;
-			background-position: center;
-			background-size: contain;
-			background-repeat: no-repeat;
-			content: '';
-			margin: 0 2em 0 1em;
-			display: flex;
-			align-items: flex-end;
-			justify-content: center;
-			color: $white;
-			font-family: 'Montserrat';
-			font-size: 1em;
-		}
-
-		.treatment-title {
-			background-color: $red-01;
-			padding: 0.5em 1em;
-			text-align: center;
-			width: 100%;
-			border-radius: 40px;
-		}
-
-		#harmonizacao-facial {
-			background-image: url('~assets/images/home-assets/harmonizacao-facial.png');
-		}
-
-		#invisalign {
-			background-image: url('~assets/images/home-assets/invisalign.png');
-		}
-
-		#dor-orofacial {
-			background-image: url('~assets/images/home-assets/dor-orofacial.png');
-		}
-
-		#endodontia {
-			background-image: url('~assets/images/home-assets/endodontia.png');
-		}
-
-		#laserterapia {
-			background-image: url('~assets/images/home-assets/laserterapia.png');
-		}
-
-		#implantes {
-			background-image: url('~assets/images/home-assets/implantes.png');
-		}
-
-		#estetica-dental {
-			background-image: url('~assets/images/home-assets/estetica-dental.png');
-		}
-
-		#clareamento {
-			background-image: url('~assets/images/home-assets/clareamento.png');
-		}
-
-		.treatment-modal {
-			width: 100%;
-			height: 100%;
-			flex-direction: column;
-			background-color: $light-red-02;
-			color: $white;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.inner-modal {
-			width: 100%;
-			height: 100%;
-			color: $red-01;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-		}
-
-		.logo-modal {
-			margin: 0 !important;
-		}
-
-		.modal-title {
-			font-weight: 400;
-			font-size: 32px;
-			margin-bottom: 32px;
-			text-align: center;
-			padding-bottom: 64px;
-			border-bottom: 8px solid #670c1b;
-			border-radius: 50%;
-		}
-
-		.modal-text {
-			font-size: 20px;
-			width: 90%;
-			height: 480px;
-			line-height: 1.4;
-			overflow-y: scroll;
-			text-align: left;
-			margin-bottom: 40px;
-			font-size: 1.2rem;
-		}
-
-		.modal-close {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			background-color: $red-01;
-			color: $white;
-			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			cursor: pointer;
-		}
-
-		.modal-close:hover {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			color: $white;
-			background: #470812;
-			box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
 		}
 	}
 
-	/* tablet */
-	@media (min-width: 768px) {
-		#treatment-title {
-			color: $red-01;
-			font-size: 2.5em;
-			display: flex;
-			justify-content: center;
-			padding: 1em 0 1em 0;
-			text-align: center;
-		}
+	.treatment-element {
+		width: 20em;
+		height: 20em;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 1em;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		color: $white;
+		font-family: 'Montserrat';
+		font-size: 1em;
 
-		#treatment-list {
-			display: flex;
-			flex-direction: row;
-			min-width: 100%;
-			flex-wrap: nowrap;
-			flex: 1;
-			flex-shrink: initial;
-			overflow: auto;
-			white-space: nowrap;
-			padding: 0 0 2em 0;
-			justify-content: space-between;
+		@media screen and (min-width: 768px) {
+			.treatment-element {
+				width: 16em;
+				height: 16em;
+			}
 		}
+	}
 
-		.treatment-element {
-			min-width: 16em;
-			height: 16em;
-			background-position: center;
-			background-size: contain;
-			background-repeat: no-repeat;
-			content: '';
-			margin: 0 1em 0 1em;
-			display: flex;
-			align-items: flex-end;
-			justify-content: center;
-			color: $white;
-			font-family: 'Montserrat';
-			font-size: 1em;
-		}
+	.treatment-title {
+		background-color: $red-01;
+		padding: 0.5em 1em;
+		text-align: center;
+		width: 100%;
+		max-width: 350px;
+		border-radius: 40px;
+	}
 
-		.treatment-title {
-			background-color: $red-01;
-			padding: 0.5em 1em;
-			text-align: center;
-			width: 100%;
-			border-radius: 40px;
-		}
+	#harmonizacao-facial {
+		background-image: url('~assets/images/home-assets/harmonizacao-facial.png');
+	}
 
-		#harmonizacao-facial {
-			background-image: url('~assets/images/home-assets/harmonizacao-facial.png');
-		}
+	#invisalign {
+		background-image: url('~assets/images/home-assets/invisalign.png');
+	}
 
-		#invisalign {
-			background-image: url('~assets/images/home-assets/invisalign.png');
-		}
+	#dor-orofacial {
+		background-image: url('~assets/images/home-assets/dor-orofacial.png');
+	}
 
-		#dor-orofacial {
-			background-image: url('~assets/images/home-assets/dor-orofacial.png');
-		}
+	#endodontia {
+		background-image: url('~assets/images/home-assets/endodontia.png');
+	}
 
-		#endodontia {
-			background-image: url('~assets/images/home-assets/endodontia.png');
-		}
+	#laserterapia {
+		background-image: url('~assets/images/home-assets/laserterapia.png');
+	}
 
-		#laserterapia {
-			background-image: url('~assets/images/home-assets/laserterapia.png');
-		}
+	#implantes {
+		background-image: url('~assets/images/home-assets/implantes.png');
+	}
 
-		#implantes {
-			background-image: url('~assets/images/home-assets/implantes.png');
-		}
+	#estetica-dental {
+		background-image: url('~assets/images/home-assets/estetica-dental.png');
+	}
 
-		#estetica-dental {
-			background-image: url('~assets/images/home-assets/estetica-dental.png');
-		}
+	#clareamento {
+		background-image: url('~assets/images/home-assets/clareamento.png');
+	}
 
-		#clareamento {
-			background-image: url('~assets/images/home-assets/clareamento.png');
-		}
+	.treatment-modal {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		background-color: $light-red-02;
+		color: $white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-		.treatment-modal {
-			width: 100%;
-			height: 100%;
-			flex-direction: column;
-			background-color: $light-red-02;
-			color: $white;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
+	.inner-modal {
+		width: 100%;
+		height: 100%;
+		color: $red-01;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		padding: 18px 12px;
+	}
 
-		.inner-modal {
-			width: 100%;
-			height: 100%;
-			color: $red-01;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-		}
+	.logo-modal {
+		margin: 0 !important;
+	}
 
-		.logo-modal {
-			margin: 0 !important;
-		}
+	.modal-title {
+		font-weight: 400;
+		font-size: 32px;
+		text-align: center;
+		border-bottom: 8px solid #670c1b;
+		border-radius: 50%;
+		padding-bottom: 24px;
+	}
 
-		.modal-title {
-			font-weight: 400;
-			font-size: 32px;
-			margin-bottom: 32px;
-			text-align: left;
-			padding-bottom: 64px;
-			border-bottom: 8px solid #670c1b;
-			border-radius: 50%;
-		}
+	.modal-text {
+		font-size: 16px;
+		line-height: 1.4;
+		padding: 12px 20px;
+	}
 
-		.modal-text {
-			font-size: 24px;
-			width: 80%;
-			line-height: 1.6;
-			text-align: center;
-			margin-bottom: 40px;
-		}
+	.modal-close {
+		min-width: 120px;
+		padding: 8px;
+		border-radius: 4px;
+		font-size: 24px;
+		border: none;
+		background-color: $red-01;
+		color: $white;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		cursor: pointer;
 
-		.modal-close {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			background-color: $red-01;
-			color: $white;
-			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			cursor: pointer;
-		}
-
-		.modal-close:hover {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			color: $white;
+		&:hover {
 			background: #470812;
 			box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
 		}
 	}
 
 	/* web */
-	@media (min-width: 1440px) {
+	@media (min-width: 768px) {
 		#treatment-title {
 			color: $red-01;
 			font-size: 3.5em;
@@ -564,24 +419,11 @@
 			text-align: center;
 		}
 
-		#treatment-list {
-			display: flex;
-			flex-direction: row;
-			min-width: 100%;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			flex: 1;
-			flex-shrink: initial;
-			overflow: auto;
-			padding: 0 0 2em 0;
-		}
-
 		.treatment-element {
 			min-width: 33%;
 			background-position: center;
 			background-size: contain;
 			background-repeat: no-repeat;
-			content: '';
 			margin: 0 0em 2em 0em;
 			display: flex;
 			align-items: flex-end;
@@ -589,46 +431,6 @@
 			color: $white;
 			font-family: 'Montserrat';
 			font-size: 1.2em;
-		}
-
-		.treatment-title {
-			background-color: $red-01;
-			padding: 0.5em 1em;
-			text-align: center;
-			width: 60%;
-			border-radius: 40px;
-		}
-
-		#harmonizacao-facial {
-			background-image: url('~assets/images/home-assets/harmonizacao-facial.png');
-		}
-
-		#invisalign {
-			background-image: url('~assets/images/home-assets/invisalign.png');
-		}
-
-		#dor-orofacial {
-			background-image: url('~assets/images/home-assets/dor-orofacial.png');
-		}
-
-		#endodontia {
-			background-image: url('~assets/images/home-assets/endodontia.png');
-		}
-
-		#laserterapia {
-			background-image: url('~assets/images/home-assets/laserterapia.png');
-		}
-
-		#implantes {
-			background-image: url('~assets/images/home-assets/implantes.png');
-		}
-
-		#estetica-dental {
-			background-image: url('~assets/images/home-assets/estetica-dental.png');
-		}
-
-		#clareamento {
-			background-image: url('~assets/images/home-assets/clareamento.png');
 		}
 
 		.treatment-modal {
@@ -668,33 +470,8 @@
 
 		.modal-text {
 			font-size: 24px;
-			width: 40%;
-			line-height: 1.6;
 			text-align: center;
-			margin-bottom: 40px;
-		}
-
-		.modal-close {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			background-color: $red-01;
-			color: $white;
-			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			cursor: pointer;
-		}
-
-		.modal-close:hover {
-			min-width: 120px;
-			padding: 8px;
-			border-radius: 4px;
-			font-size: 24px;
-			border: none;
-			color: $white;
-			background: #470812;
-			box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+			width: 70%;
 		}
 	}
 </style>
