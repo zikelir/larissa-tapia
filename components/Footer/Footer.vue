@@ -37,22 +37,22 @@
 			return {
 				contacts: [
 					{
-						href: 'https://wa.me/5519976546644/?text=hello',
+						href: 'https://wa.me/5519996791213/?text=Olá, Dra. Larissa',
 						imgSrc: require('@/assets/images/footer-assets/zap-white.svg'),
-						text: '+55 (19) 97654-6644',
+						text: '+55 (19) 99679-1213',
 					},
 					{
-						href: 'tel:5551234567',
+						href: 'tel:551932131936',
 						imgSrc: require('@/assets/images/footer-assets/phone-white.svg'),
 						text: '+55 (19) 3213-1936',
 					},
 					{
-						href: 'http://instagram.com/dralarissatapia',
+						href: 'https://instagram.com/dralarissatapia',
 						imgSrc: require('@/assets/images/footer-assets/insta-white.svg'),
 						text: 'dralarissatapia',
 					},
 					{
-						href: 'http://facebook.com/dralarissatapia',
+						href: 'https://facebook.com/dralarissatapia',
 						imgSrc: require('@/assets/images/footer-assets/fb-white.svg'),
 						text: 'dralarissatapia',
 					},

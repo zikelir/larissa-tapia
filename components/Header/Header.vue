@@ -29,7 +29,7 @@
 					<a
 						id="zap"
 						class="social-media-icon"
-						href="https://wa.me/5521979347722/?text=hello"
+						href="https://wa.me/5519996791213/?text=Olá, Dra. Larissa"
 						target="_blank"
 						aria-label="WhatsApp"
 					/>
@@ -37,7 +37,7 @@
 					<a
 						id="face"
 						class="social-media-icon"
-						href="http://facebook.com/dralarissatapia"
+						href="https://facebook.com/dralarissatapia"
 						target="_blank"
 						aria-label="Facebook"
 					/>
@@ -45,7 +45,7 @@
 					<a
 						id="insta"
 						class="social-media-icon"
-						href="http://instagram.com/dralarissatapia"
+						href="https://instagram.com/dralarissatapia"
 						target="_blank"
 						aria-label="Instagram"
 					/>
@@ -70,7 +70,7 @@
 					<a
 						id="zap"
 						class="social-media-icon"
-						href="https://wa.me/5521979347722/?text=hello"
+						href="https://wa.me/5519996791213/?text=Olá, Dra. Larissa"
 						target="_blank"
 						aria-label="WhatsApp"
 					/>
@@ -78,7 +78,7 @@
 					<a
 						id="face"
 						class="social-media-icon"
-						href="http://facebook.com/dralarissatapia"
+						href="https://facebook.com/dralarissatapia"
 						target="_blank"
 						aria-label="Facebook"
 					/>
@@ -86,7 +86,7 @@
 					<a
 						id="insta"
 						class="social-media-icon"
-						href="http://instagram.com/dralarissatapia"
+						href="https://www.instagram.com/dralarissatapia"
 						target="_blank"
 						aria-label="Instagram"
 					/>
