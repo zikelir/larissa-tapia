@@ -13,7 +13,10 @@
 						<div id="contact-phone" />+55 (19) 3213-1936
 					</div>
 				</div>
-				<img :src="require(`~/assets/images/home-assets/address.png`)" :alt="'address image'">
+				<div class="imagens-consultorio">
+					<img :src="require(`~/assets/images/home-assets/address.png`)" :alt="'address image'" class="imagem-consultorio">
+					<img :src="require(`~/assets/images/home-assets/consultorio-entrada.jpeg`)" :alt="'entrada consultorio'" class="imagem-consultorio">
+				</div>
 			</div>
 			<div id="location">
 				<div>
@@ -152,6 +155,14 @@
 			justify-content: space-between;
 		}
 
+		.imagens-consultorio {
+			display: flex;
+		}
+
+		.imagem-consultorio {
+			width: 50%;
+		}
+
 		#contacts-call {
 			display: flex;
 			flex-direction: column;
@@ -246,6 +257,14 @@
 			color: $white;
 			padding: 0;
 			justify-content: space-between;
+		}
+
+		.imagens-consultorio {
+			display: flex;
+		}
+
+		.imagem-consultorio {
+			width: 50%;
 		}
 
 		#contacts-call {
