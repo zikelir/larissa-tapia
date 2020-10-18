@@ -259,7 +259,6 @@
 <style lang="scss">
 	#home-treatments {
 		font-family: 'Montserrat';
-		min-height: 100vh;
 	}
 
 	#treatment-title {
@@ -288,8 +287,8 @@
 	}
 
 	.treatment-element {
-		width: 20em;
-		height: 20em;
+		min-width: 16em;
+		height: 16em;
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -303,7 +302,7 @@
 
 		@media screen and (min-width: 768px) {
 			.treatment-element {
-				width: 16em;
+				min-width: 16em;
 				height: 16em;
 			}
 		}
