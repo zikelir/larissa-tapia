@@ -43,10 +43,10 @@
 				</li>
 				<li
 					class="tab"
-					:class="{ active: selectedTab === 'Paulo' }"
+					:class="{ active: selectedTab === 'paulo' }"
 					tabindex="0"
-					@click="selectedTab = 'Paulo'"
-					@keyup.enter="selectedTab = 'Paulo'"
+					@click="selectedTab = 'paulo'"
+					@keyup.enter="selectedTab = 'paulo'"
 				>
 					Dr. Paulo Estevão Scanavini
 				</li>

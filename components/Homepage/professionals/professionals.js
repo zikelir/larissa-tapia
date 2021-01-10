@@ -47,14 +47,30 @@ export default {
 			'Professor da Especialização em Implantodontia - CEO Presidente Prudente',
 		],
 	},
-	paulo: {
-		name: 'Dr. Paulo Estevão Scanavini - CROSP 64601',
-		imgSrc: 'images/professionals/paulo.png',
+	rafael: {
+		name: 'Dr. Rafael de Mello e Oliveira',
+		imgSrc: 'images/professionals/rafael.png',
 		text: [
 			'Dr. Rafael de Mello e Oliveira',
+			'Graduado em Odontologia pela Faculdade de Odontologia São Leopoldo Mandic. 2010',
+			'Mestre em Cirurgia Plástica-Cirurgia Translacional - UNIFESP-EPM - São Paulo - SP. 2014',
+			'Especialista em Implante. São Leopoldo Mandic - Campinas - SP. 2014',
+			'Especialista em Prótese. São Leoplodo Mandic - Campinas - SP. 2014',
+			'Aperfeiçoado em Cirurgia bucal e terapêutica medicamentosa. Associação dos Cirurgiães - Dentistas de Campinas. 2011',
+			'Aperfeiçoado em Periodontia e Cirurgia Plástica Periodontal - São Leopoldo Mandic - Campinas - SP. 2014',
+			'Membro da Equipe de Perio-Protese-Implante de Campinas (EPPIC)',
+			'Professor Assistente dos cursos de Pós gradução da EPPIC na São Leopoldo Mandic e ACDC',
+		],
+	},
+	paulo: {
+		name: 'Dr. Paulo Estevão Scanavini',
+		imgSrc: 'images/professionals/rafael.png',
+		text: [
+			'Dr. Paulo Estevão Scanavini - CROSP 64601',
 			'Graduado em Odontologia pela FHO-Araras/SP (1997)',
 			'Mestre e especialista em Ortodontia pela Universidade Metodista de São Paulo',
 			'Professor do Curso de Especialização e Mestrado em Ortodontia da UNIARARAS',
+			'Especialista em Prótese. São Leoplodo Mandic - Campinas - SP. 2014',
 			'Invisalign Doctor',
 		],
 	},
