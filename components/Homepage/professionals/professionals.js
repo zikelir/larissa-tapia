@@ -64,7 +64,7 @@ export default {
 	},
 	paulo: {
 		name: 'Dr. Paulo Estevão Scanavini',
-		imgSrc: 'images/professionals/rafael.png',
+		imgSrc: 'images/professionals/paulo.png',
 		text: [
 			'Dr. Paulo Estevão Scanavini - CROSP 64601',
 			'Graduado em Odontologia pela FHO-Araras/SP (1997)',
