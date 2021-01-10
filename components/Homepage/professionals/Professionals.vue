@@ -32,6 +32,24 @@
 				>
 					Dr. Christian José Macedo
 				</li>
+				<li
+					class="tab"
+					:class="{ active: selectedTab === 'rafael' }"
+					tabindex="0"
+					@click="selectedTab = 'rafael'"
+					@keyup.enter="selectedTab = 'rafael'"
+				>
+					Dr. Rafael de Mello e Oliveira
+				</li>
+				<li
+					class="tab"
+					:class="{ active: selectedTab === 'Paulo' }"
+					tabindex="0"
+					@click="selectedTab = 'Paulo'"
+					@keyup.enter="selectedTab = 'Paulo'"
+				>
+					Dr. Paulo Estevão Scanavini
+				</li>
 			</ul>
 			<div class="content">
 				<img :src="require(`~/assets/${content.imgSrc}`)" :alt="content.name" class="professional-photo">

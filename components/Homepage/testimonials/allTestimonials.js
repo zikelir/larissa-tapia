@@ -62,7 +62,7 @@ export default [
 	},
 	{
 		name: 'Pedrita Evangelista',
-		age: '-',
+		age: '40',
 		job: 'Psicóloga Clínica',
 		img: 'pedrita-evangelista.png',
 		testimonial: 'Já seria incrível ser paciente da Dra Larissa pelo profissionalismo e competência com os quais conduz sua carreira. Mas ela tem um plus que foi exatamente o diferencial que fidelizou minha relação com ela e me faz tê-la como “minha dentista”: a humanidade! Todos temos grandes reticências quanto às idas ao dentista e o controle da saúde bucal e eu não sou diferente! Mas a forma como ela conduz as sessões e os tratamentos diminuiu consideravelmente a minha ansiedade na cadeira, minhas preocupações pós-cirúrgicas e todo aquele trauma do barulhinho do motor! Sua abordagem engloba os cuidados emocionais e a personalização no trato do paciente faz cmo que a gente sinta em paz e muito confiante no processo! Super recomendo essa profissional!',

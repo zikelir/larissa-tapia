@@ -47,4 +47,15 @@ export default {
 			'Professor da Especialização em Implantodontia - CEO Presidente Prudente',
 		],
 	},
+	paulo: {
+		name: 'Dr. Paulo Estevão Scanavini - CROSP 64601',
+		imgSrc: 'images/professionals/paulo.png',
+		text: [
+			'Dr. Rafael de Mello e Oliveira',
+			'Graduado em Odontologia pela FHO-Araras/SP (1997)',
+			'Mestre e especialista em Ortodontia pela Universidade Metodista de São Paulo',
+			'Professor do Curso de Especialização e Mestrado em Ortodontia da UNIARARAS',
+			'Invisalign Doctor',
+		],
+	},
 };
