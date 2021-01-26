@@ -4,7 +4,7 @@ export default [
 		age: 60,
 		job: 'Empresário',
 		img: 'claudio-roberto.png',
-		testimonial: 'Gostaria de deixar aqui meu depoimento sobe a Dra. Larissa,' +
+		testimonial: 'Gostaria de deixar aqui meu depoimento sobre a Dra. Larissa,' +
 			' de que é uma profissional muito acima da média, posso dizer com toda a convicção de  uma pessoa que já passou em alguns outros consultórios,' +
 			' que aliás deixam muito a desejar perto do consultório da Dra Larissa que possue os melhores equipamentos da atualidade.' +
 			' Além disso tudo ainda tem parceria com outros profissionais da área que só vem a complementar todo o seu trabalho,' +
