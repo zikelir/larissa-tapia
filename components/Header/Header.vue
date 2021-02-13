@@ -349,7 +349,7 @@
 			flex-direction: column;
 			min-height: 180px;
 			position: absolute;
-			width: calc(100% + 10px);
+			width: 100%;
 			margin: 22px 0 0 -50px;
 			padding: 17px 50px;
 			padding-top: 0;

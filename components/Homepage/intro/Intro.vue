@@ -75,14 +75,13 @@
 		background-position: center;
 		text-align: center;
 		color: $white;
-		padding: 80px 40px 40px;
+		padding-top: 80px;
 		min-height: 100vh;
 	}
 
 	.welcome-phrase {
 		height: 100%;
 		width: 100%;
-		margin-top: 1em;
 		font-size: 1.5em;
 		padding: 0 10%;
 		font-family: 'Montserrat';
@@ -130,6 +129,7 @@
 			justify-content: center;
 			align-items: center;
 			transition: background-color 0.3s ease-in;
+			height: 100vh;
 
 			&.is-active {
 				border: none;
