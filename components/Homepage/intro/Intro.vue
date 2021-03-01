@@ -119,6 +119,7 @@
 
 	/deep/ .hooper {
 		flex: 1;
+		height: calc(100vh - 80px);
 
 		.hooper-list {
 			height: 100%;
