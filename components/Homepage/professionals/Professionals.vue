@@ -85,7 +85,6 @@
 	.professionals {
 		display: flex;
 		flex-direction: column;
-		height: auto;
 
 		@media screen and (min-width: 950px) {
 			// height: 80vh;
@@ -110,13 +109,12 @@
 		&-list {
 			display: flex;
 			flex-direction: column;
-			height: calc(90% - 2rem);
+			min-height: 100vh;
 
 			.tabs {
 				display: flex;
-				// background-color: $light-red-02;
 				border-top-left-radius: 8px;
-				// border-top: 4px solid $light-red-03;
+				overflow-x: scroll;
 
 				@media screen and (max-width: 680px) {
 					overflow-x: auto;

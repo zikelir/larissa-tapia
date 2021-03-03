@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="layout-container">
 		<Header />
 		<nuxt />
 		<Footer />
@@ -26,5 +26,10 @@
 		height: 100%;
 		width: 100%;
 		background-color: $white;
+	}
+
+	.layout-container {
+		display: flex;
+		flex-direction: column;
 	}
 </style>
